@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
+@import url('/assets/css/build/keqing.css');
+@import url('/assets/css/build/ganyu.css');
+
 @font-face {
     font-family: "HYWenHei";
     src: url('/assets/font/zh-cn.ttf');
@@ -168,13 +171,6 @@ body {
     width: 100%;
 }
 
-.btn-keqing {
-    background-image: url('/assets/img/character/liyue/Keqing_Lightning_Stiletto.png');
-    border: 1px solid #9a7be0 !important;
-    background-color: #a381e4 !important;
-    background-position: -35px;
-}
-
 .icon {
     background-size: cover;
     width: 24px;
@@ -219,26 +215,9 @@ body {
     padding-top: 5%;
 }
 
-.build-stat {
-    border-top-left-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
-    padding: 1.25rem;
-    height: 100%;
-    max-width: 50%;
-}
-
-.build-Keqing {
-    background-image: url('/assets/build/keqing/Keqing_Header.png');
-    background-color: #c8abe0;
-}
-
-.build-Keqing>* {
-    text-shadow: 1px 1px 1px rgb(116 97 138) !important;
-}
-
 .d-stat {
     font-weight: 700;
-    max-width: 330px;
+    max-width: 375px;
 }
 
 table.table-stat tr td {

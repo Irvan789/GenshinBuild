@@ -1,0 +1,23 @@
+{
+    "name": "Ganyu",
+    "level": "90/90",
+    "cons": "2",
+    "stat": {
+        "HP": "16196",
+        "ATK": "2539",
+        "DEF": "670",
+        "EM": "124",
+        "ER": "105.8",
+        "CR": "49.7",
+        "CDM": "222.1"
+    },
+    "weapon": "/assets/build/ganyu/Ganyu_Weapon.webp",
+    "artifacts": {
+        "flower": "/assets/build/ganyu/Ganyu_Artifact_1.webp",
+        "plume": "/assets/build/ganyu/Ganyu_Artifact_2.webp",
+        "eon": "/assets/build/ganyu/Ganyu_Artifact_3.webp",
+        "goblet": "/assets/build/ganyu/Ganyu_Artifact_4.webp",
+        "circlet": "/assets/build/ganyu/Ganyu_Artifact_5.webp"
+    },
+    "talents": "10/10/10"
+}

@@ -1,0 +1,24 @@
+.btn-keqing {
+    background-image: url('/assets/img/character/liyue/Keqing_Lightning_Stiletto.png');
+    border: 1px solid #9a7be0 !important;
+    background-color: #a381e4 !important;
+    background-position: -35px;
+}
+
+section.keqing {
+    background-image: linear-gradient(180deg, rgb(77, 35, 108), rgb(145 64 169));
+    color: #f7eefd;
+}
+
+section.keqing table {
+    color: #f7eefd;
+}
+
+.build-keqing {
+    background-image: url('/assets/build/keqing/Keqing_Header.png');
+    background-color: #432166;
+}
+
+.build-keqing>* {
+    text-shadow: 1px 1px 1px rgb(116 97 138) !important;
+}

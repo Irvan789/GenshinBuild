@@ -1,0 +1,24 @@
+.btn-ganyu {
+    background-image: url(/assets/img/character/liyue/Ganyu_Qilin.png);
+    border: 1px solid #67a9e5 !important;
+    background-color: #7ebcec !important;
+    background-position: -35px;
+}
+
+section.ganyu {
+    background-image: linear-gradient(180deg, rgb(28 107 151), rgb(84 173 200));
+    color: #fafeff;
+}
+
+section.ganyu table {
+    color: #fafeff;
+}
+
+.build-ganyu {
+    background-image: url('/assets/build/ganyu/Ganyu_Header.png');
+    background-color: #1b6396;
+}
+
+.build-ganyu>* {
+    text-shadow: 1px 1px 1px rgb(91 114 174) !important;
+}
