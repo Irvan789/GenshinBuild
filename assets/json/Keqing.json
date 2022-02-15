@@ -1,0 +1,22 @@
+{
+    "name": "Keqing",
+    "level": "90/90",
+    "cons": "1",
+    "stat": {
+        "HP": "19400",
+        "ATK": "2280",
+        "DEF": "917",
+        "EM": "0",
+        "ER": "111.0",
+        "CR": "53.6",
+        "CDM": "211.2"
+    },
+    "weapon": "/assets/build/keqing/Keqing_Weapon.webp",
+    "artifacts": {
+        "flower": "/assets/build/keqing/Keqing_Artifact_1.webp",
+        "plume": "/assets/build/keqing/Keqing_Artifact_2.webp",
+        "eon": "/assets/build/keqing/Keqing_Artifact_3.webp",
+        "goblet": "/assets/build/keqing/Keqing_Artifact_4.webp",
+        "circlet": "/assets/build/keqing/Keqing_Artifact_5.webp"
+    }
+}
