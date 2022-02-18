@@ -1,0 +1,29 @@
+.btn-venti {
+    background-image: url('../../img/character/mondstadt/Venti_Azure_Sky.png');
+    border: 1px solid #4faeb1 !important;
+    background-color: #5EB9BF !important;
+    background-position: -10px;
+}
+
+section.venti {
+    background-image: linear-gradient(180deg, rgb(31 119 110), rgb(51 169 156));
+    color: #f9ffff;
+}
+
+section.venti table {
+    color: #f9ffff;
+}
+
+.build-venti {
+    background-image: url('https://bn1301files.storage.live.com/y4minG5YS9ojF54fo6x-pr176WdsPXkauxU6HkDySmgqpe6RmaVR4vK3QuMiN5RqcfHAr6fKaGo72Mr-mHCjoRRbxsooY7-3CS3Ct_faPn7xlW1HVV5WRoCB2LlmKBrCllNhJ70UG3JAYMJq61l4mZv2uAJDyViuyvqKCMEvg1qPn2tzFyn4ebdo1X-QRmt4BdD?width=1920&height=320&cropmode=none');
+    background-color: #1c6f65;
+}
+
+.build-venti>* {
+    text-shadow: 1px 1px 1px rgb(33 123 114) !important
+}
+
+.navbar-venti,
+.footer-venti {
+    background-color: #1c6f65 !important;
+}

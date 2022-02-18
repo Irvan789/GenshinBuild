@@ -1,8 +1,8 @@
 .btn-ganyu {
-    background-image: url(/assets/img/character/liyue/Ganyu_Qilin.png);
+    background-image: url('../../img/character/liyue/Ganyu_Qilin.png');
     border: 1px solid #67a9e5 !important;
     background-color: #7ebcec !important;
-    background-position: -35px;
+    background-position: -10px;
 }
 
 section.ganyu {
@@ -15,10 +15,15 @@ section.ganyu table {
 }
 
 .build-ganyu {
-    background-image: url('/assets/build/ganyu/Ganyu_Header.png');
+    background-image: url('https://bn1301files.storage.live.com/y4m_eQI7bc5t5ei3OQ_DB_oZssDF-wKyu7QruyFJWCNtQdOofdbkzAte4kESGFQiO3s6GCabt-6qeJIb4kN3SGpYalAWjW24GatlfBd0EsyKb7kXfQfcfHw9Se7BSIxlP2BJo-4Y7U1GIV6OuQUmiQLBMMspIpljXvofcBRsyesiUacPhR7hkjqv-vnmka9UamU?width=1920&height=320&cropmode=none');
     background-color: #1b6396;
 }
 
 .build-ganyu>* {
     text-shadow: 1px 1px 1px rgb(91 114 174) !important;
+}
+
+.navbar-ganyu,
+.footer-ganyu {
+    background-color: #1b6396;
 }

@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-@import url('/assets/css/build/keqing.css');
-@import url('/assets/css/build/ganyu.css');
+@import url('../css/build/venti.css');
+@import url('../css/build/keqing.css');
+@import url('../css/build/ganyu.css');
+@import url('../css/build/ayaka.css');
 
 @font-face {
     font-family: "HYWenHei";
-    src: url('/assets/font/zh-cn.ttf');
+    src: url('../font/zh-cn.ttf');
 }
 
 * {
@@ -32,7 +34,7 @@ body {
     width: 22px;
     height: 16px;
     top: 0.3rem;
-    margin: 0px;
+    margin: 4px 0px;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -63,7 +65,7 @@ body {
 }
 
 .animated-icon span {
-    background: #2c2c2c;
+    background: #ffffff;
 }
 
 .animated-icon span:nth-child(1) {
@@ -133,7 +135,7 @@ body {
 
 .bg-keqing {
     background-position: center calc(15%);
-    background-image: url('/assets/img/bg_keqing.png');
+    background-image: url('../img/bg_keqing.png');
     padding-bottom: 10.5%;
     padding-top: 10.5%;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
@@ -145,15 +147,15 @@ body {
 }
 
 .bg-mondstadt {
-    background-image: url('/assets/img/mondstadt.jpg');
+    background-image: url('../img/mondstadt.jpg');
 }
 
 .bg-liyue {
-    background-image: url('/assets/img/liyue.jpg');
+    background-image: url('../img/liyue.jpg');
 }
 
 .bg-inazuma {
-    background-image: url('/assets/img/inazuma.jpg');
+    background-image: url('../img/inazuma.jpg');
 }
 
 .btn-char {
@@ -162,7 +164,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 0.175rem !important;
-    font-size: 1.25rem !important;
+    font-size: 1.175rem !important;
     font-weight: 700 !important;
     color: #FFFFFF !important;
     padding: 0.5rem 0.75rem !important;
@@ -171,38 +173,17 @@ body {
     width: 100%;
 }
 
-.icon {
-    background-size: cover;
-    width: 24px;
-    height: 24px;
-}
-
-.icon-hp {
-    background-image: url('/assets/img/icon/Icon_Attribute_Health.png');
-}
-
-.icon-atk {
-    background-image: url('/assets/img/icon/Icon_Attribute_Attack.png');
-}
-
-.icon-def {
-    background-image: url('/assets/img/icon/Icon_Attribute_Defense.png');
-}
-
-.icon-em {
-    background-image: url('/assets/img/icon/Icon_Attribute_Elemental_Mastery.png');
-}
-
-.icon-crdm {
-    background-image: url('/assets/img/icon/Icon_Attribute_Critical_Hit.png');
-}
-
-.icon-er {
-    background-image: url('/assets/img/icon/Icon_Attribute_Energy_Recharge.png');
+.navbar-home,
+.footer-home {
+    background-color: #65517a;
 }
 
 .fs-14 {
     font-size: 14px !important;
+}
+
+section {
+    min-height: calc(100vh - 114px);
 }
 
 .build {
@@ -236,6 +217,50 @@ table.table-stat tr td:last-child {
 .card img {
     border: none !important;
     border-radius: 0.5rem !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .build {
+        background-size: cover;
+    }
+}
+
+footer {
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 1.15rem 0.75rem;
+}
+
+.icon {
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+}
+
+.icon-hp {
+    background-image: url('../img/icon/Icon_Attribute_Health.png');
+}
+
+.icon-atk {
+    background-image: url('../img/icon/Icon_Attribute_Attack.png');
+}
+
+.icon-def {
+    background-image: url('../img/icon/Icon_Attribute_Defense.png');
+}
+
+.icon-em {
+    background-image: url('../img/icon/Icon_Attribute_Elemental_Mastery.png');
+}
+
+.icon-crdm {
+    background-image: url('../img/icon/Icon_Attribute_Critical_Hit.png');
+}
+
+.icon-er {
+    background-image: url('../img/icon/Icon_Attribute_Energy_Recharge.png');
 }
 
 ::-webkit-scrollbar {

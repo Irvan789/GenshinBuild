@@ -11,13 +11,13 @@
         "CR": "53.6",
         "CDM": "211.2"
     },
-    "weapon": "/assets/build/keqing/Keqing_Weapon.webp",
+    "weapon": "https://bn1301files.storage.live.com/y4mqX2p292aLBdaIX2mEOiN_ICYFYuVHwj6N-9qd8XkkeKwMt5Z0PyK6O_1gIt04VTiodvpt8ump3U3-1zgLPtiBvoHKM11n3yIbu0paQPOf_CuX52qLk9lWnDJQi3IbHqS4-ObPFPg5b0YbiOmXuJQGbkTwWoJNPTbkBrMZaar_RSpWYwQKZF698F7ejGpKK4K?width=260&height=415&cropmode=none",
     "artifacts": {
-        "flower": "/assets/build/keqing/Keqing_Artifact_1.webp",
-        "plume": "/assets/build/keqing/Keqing_Artifact_2.webp",
-        "eon": "/assets/build/keqing/Keqing_Artifact_3.webp",
-        "goblet": "/assets/build/keqing/Keqing_Artifact_4.webp",
-        "circlet": "/assets/build/keqing/Keqing_Artifact_5.webp"
+        "flower": "https://bn1301files.storage.live.com/y4mUEsBTvtGYkIqhVtaG5q6hGd1zQ9oTOXC7gnjnttjRgJXXy1tYaQxfqvBN5_kaD9y9AVuwV-tuyuk2eiERXjAovi4WN3T-8Y_rxRghOiZ_vrxZYzK3TswUl_qvg1QhF_ZCRyLqlHwxXXGgzNt7hTDVKimm9o5_XyqD8B0yLvkH5fsA88y3RBAJNDbUqkMaWAq?width=260&height=415&cropmode=none",
+        "plume": "https://bn1301files.storage.live.com/y4mUkgyiHrxHUeG83oam_JgTOU9a55kCjrs3yNnBSQX2S9ByTnzKW-RiV5OSOzelcZ5d3eoVMRyQT34CKIBlHtH2NsfR0KmBgcC8UP0vlZgAIjtwEO55ahgN8-fvknwgXCQZr8tE790szWqZEyd6ra-iJNaJOROPv1JHin7gsxqnb_59Y-HjMdjm0pYMMAz3Qvw?width=260&height=415&cropmode=none",
+        "eon": "https://bn1301files.storage.live.com/y4m7MTZMs6CAdhvSYBIjSsJ6KKGA876QVbm2NVaqLWDcRPIIIbLx9cUmIkVIuLE-2-D3rWDsfiq1kz_cfpRmeETsgM6Hke84FYp-2yZGG1cipFzbxQ4B6-Qz1djAi6ZtTrfO9QTXlBV0-XmdBhxPZgaCJLympCET4kpJMewWWNRlimlyWXYmbWPBwMvK5eb4pmo?width=260&height=415&cropmode=none",
+        "goblet": "https://bn1301files.storage.live.com/y4mURf16e5sgHgFb96bMkF41ZvS-qTFW7DzqAgRJZv-M9qZcUCBTBJXJLk-OJ0BqGt_3v5XK6MB5f8aaait2vUChkbMDGZYb_W9IV3kjRSXoz4YvZWR5-ohpYhKTp0zg8CK1iBGin2A0Xh-YtEFGG3P8UBqzCbgLFCdEM4w9V8YDdAtSVhbfSU_PMBrYS8xAPi5?width=260&height=415&cropmode=none",
+        "circlet": "https://bn1301files.storage.live.com/y4m-JijUIgqrkG19fvbQ3iGpT8MetY5r6gaGth18U5KwNxois32QEIjIcem78M_Ad-JpDSadqiOGN8SK_LUedp47bgwG1yYlSUtitoGkuwAeVf1AmnNesGVpz433GOk__0JPbDQJicNb_E-aIMX3r-woQHmqVG5Lkos_HaYF_-6xqxmoEwJb82bP_7HXSxXtjTR?width=260&height=415&cropmode=none"
     },
     "talents": "10/10/10"
 }
