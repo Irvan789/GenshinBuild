@@ -1,0 +1,23 @@
+{
+    "name": "Zhongli",
+    "level": "90/90",
+    "cons": "0",
+    "stat": {
+        "HP": "31701",
+        "ATK": "1440",
+        "DEF": "853",
+        "EM": "16",
+        "ER": "141.6",
+        "CR": "52.8",
+        "CDM": "129.3"
+    },
+    "weapon": "https://bn1301files.storage.live.com/y4meO5Atz6rE3wWjmiGdCCAbpyCsQ28JxVFNTP_mJ6rA9Sle634QFEPQOr6-D5ylPiovsfC_tK-46iJEGJt5GgxBliajdfFOTe0Dn5eNod4FxlaTUupn_TZr0AjKB5AdV0kbcLMv_8hYZ705inQ8LuIxu3k0RlzpUBRGeyzJehN255omtQwtFhqVAO0Xld8WaTv?width=260&height=415&cropmode=none",
+    "artifacts": {
+        "flower": "https://bn1301files.storage.live.com/y4mW27_Ejn7NmDlU8XVYMtG5Ac1AERmH8jLD7M1DoPo19izo4pzVVP4Xowy3fMLwsfd4rKddEZllwZ5j-zcZvZTnQ_jV41tZoOAxYBftkXL48hP_oFI1KQpeLhxTvY3eKIzpZiom5lm36ay-NaOG-oRiF-Dn1BP3_KCPtHGGnZu4Gk3i_Xoj37k0dYm-ZrfNWmG?width=260&height=415&cropmode=none",
+        "plume": "https://bn1301files.storage.live.com/y4m5PNtj45KVh1Ay0qoE58cIBu6ktcKnB_IpspWNZZJzSn54HnYe4xP23dDbAbPIfAWQeEpUggfWbupFbv2zKhNxjgliLDGA89gjaJlqJ2pyHXwxTNT2yK_vuBywheEnUOaaV5-RfOGxp32__l-EotaLRqHpoQCOYcEuugdRHVgbxGYLGYPU4i0Bs51UUBsMb0W?width=260&height=415&cropmode=none",
+        "eon": "https://bn1301files.storage.live.com/y4mAr8oZKy9sJaMuBXLXkEgJMfY08Hm7YZjFZ3ABhm-UPJkqSjk64rB33clLE1NoN6u-9bMJcFWSXMQpC76590PpP7wJx1gBirJUBhoDxJrcyATa5sOrq-NdjTUobeQDg1JQzCLS8E89BRmObjpody0G5dcnYK1ThMfAYagQ_tgjeQC18Eqt1enSYzwdiO8drSb?width=260&height=415&cropmode=none",
+        "goblet": "https://bn1301files.storage.live.com/y4m2hCMjuot2GrR0SKuAnS7OORhXqCzMXlVYPkM3Kx75HrOSYjxw_UC_nvplh-tO1aQjPDk4IGKUe9VhkOe84SUI6IODQd2Aa8MIdouk2qc9j3sgFGvkjplJzKJ_hUUuWWP0cNEoGV8c3HsVXGGKxYQWPcREPwOZkGDdyxx6Nw79PGT9803yw5PfK155_3Qn6YD?width=260&height=415&cropmode=none",
+        "circlet": "https://bn1301files.storage.live.com/y4m98FAHXBK2T6Sto6EuPLvLMzj2WPkIVuvZVwyeE9pgYxVf9uq6gkL_IRUqgUi5EAMJqEMi1nO5nYApXWqHPrBPtBzg3N9S2GWkjRrIoSzrc3Sz1I-J1COBuHV9vz_ZId8H_3hv3lQTvVsjBuT3jVRBcwKsJAAco46dILUX_2UdBkqkEJPuArxX9aqG7VpNw7y?width=260&height=415&cropmode=none"
+    },
+    "talents": "10/10/10"
+}

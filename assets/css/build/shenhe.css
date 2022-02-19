@@ -1,0 +1,29 @@
+.btn-shenhe {
+    background-image: url('../../img/character/liyue/Shenhe_Comb.png');
+    border: 1px solid #b3c4d3 !important;
+    background-color: #969fa3 !important;
+    background-position: -10px;
+}
+
+section.shenhe {
+    background-image: linear-gradient(180deg, rgb(24 111 146), rgb(58 166 200));
+    color: #ffffff;
+}
+
+section.shenhe table {
+    color: #ffffff;
+}
+
+.build-shenhe {
+    background-image: url('https://bn1301files.storage.live.com/y4mJJnkytEQQHOdKSBp8gj9BYGTXObUVqcmMWXGwzFZxRlX6x6tH-APYqeqDjlCxe-pECGFqfwFhGUZH07zgHsZ2jh967Xs5gb2RUsXLebYlRmQTFmwSbZb66hsC6Mq27lMvwLecO-wp-p5Qv4S5YsJCET_hcmO_iEw7Y89y9OS83C3S-usl28fCHR0DE3ht8X-?width=1920&height=320&cropmode=none');
+    background-color: #1a698a;
+}
+
+.build-shenhe>* {
+    text-shadow: 1px 1px 1px rgb(116 97 138) !important;
+}
+
+.navbar-shenhe,
+.footer-shenhe {
+    background-color: #1a698a;
+}

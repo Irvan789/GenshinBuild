@@ -1,0 +1,23 @@
+{
+    "name": "Jean",
+    "level": "90/90",
+    "cons": "3",
+    "stat": {
+        "HP": "20934",
+        "ATK": "1488",
+        "DEF": "874",
+        "EM": "86",
+        "ER": "174.2",
+        "CR": "47.0",
+        "CDM": "165.1"
+    },
+    "weapon": "https://bn1301files.storage.live.com/y4mT-gRZDgx_U9sABsDPgaLZKLd3FnQpohQTvdTk0fvNftrcIpUejGSlJ9u68OJoqZu5s1fjh-J6PvUHCLxx61kRJx2Z9gPZZ_GX_AiAq8EfNr4EGt1hl8-c2AW0N_IC4fAL6bhoUlSBBMEjZ-wvM9ypNszylHfdWb_deH_8z6pcnSUwDN8T2pB2ctuGpFW3oXs?width=260&height=415&cropmode=none",
+    "artifacts": {
+        "flower": "https://bn1301files.storage.live.com/y4mC7oHAc5GjyX6GlQH5aJ8lk7A7PuBdUWpGjdNQnvSPRogkgZURMCaTL1hP8sn0er2-IC0WXRAg5LzKERC8rsaT0aAc9b89C7nhgWhuI4JhDwrZqVNmgErFtYhqMMuGPaXOk-nbx4WdqWuaCWIB2t2zH-BM8vw9LtNng9WeBB-FQ0Y8BlN7LzJMeenZuhlb0Lf?width=260&height=415&cropmode=none",
+        "plume": "https://bn1301files.storage.live.com/y4mI0gDqpCoiQGE3Xq8pc-sgGkcacod996gudYJXPfrrKq5gdtBzNmg44xZCmir9EiN4Re3vmI3X0PH2pYJw3tZ-BJWOyCEzSiXWZSCKvQ1XbyxknKmFgxnSmVSjjwFFURbdKlqrIWMC_-0RAD-yLRxCRPJW_ANexOqyyk7lK9O004mvgUQnOS66s8F2x9n0bRh?width=260&height=415&cropmode=none",
+        "eon": "https://bn1301files.storage.live.com/y4mxU4IYJBySpsSbi2H04yZXhXcGjgPnTQ4zIoGo_hxrqjxZxldeW8fSG0WR6PKk7CSbzloC5SO5WTCi0veskk99XtdV4Gi5WrhwyzRlCWPkHp-3CTiOhujPKy9XaQu0wg5R5X4AqxFXulzAyoS6FptWf19I_F31MSAybOOvKZIPdZ1eff4ss916B1Et8pfs0QC?width=260&height=415&cropmode=none",
+        "goblet": "https://bn1301files.storage.live.com/y4mKMipGsAWRx-aPflaNl6x6cpoIa8fiMNqieaPsXObw1NWoOgUe61htU1rsuaP5N5qg-TetP08MzQ3qNwLl5YA4OtDIrp29IVkbz8E54RpE_uozql7mSMR707PkGyFdrFOfAQtyslKL5bh0Qs12_U2p3CF6ONtra7kjXB5ke5KQHyEtgq_36uX9z5_lJw0LN8j?width=260&height=415&cropmode=none",
+        "circlet": "https://bn1301files.storage.live.com/y4m_LA1W3s-v9RFFEMHHP_mnmbjzra4XrAcvdRG_jmS8AlQ5YmqEqKiI9W86WPxFynavQHIyq1o8laI211KYNX2cA3Ll01vyAr9MF-2rH0msU0fE0YXC4xtjhCChXfnhg0zyRD2HmYPAydhlfQKyhfSDA-c0_BCS7JdeNjck9-tB-jhj6u27o0HLNYrg9zmWb68?width=260&height=415&cropmode=none"
+    },
+    "talents": "6/8/11"
+}

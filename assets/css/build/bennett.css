@@ -1,0 +1,29 @@
+.btn-bennett {
+    background-image: url('../../img/character/mondstadt/Bennett_Recognition.png');
+    border: 1px solid #b9493d !important;
+    background-color: #aa5044 !important;
+    background-position: -10px;
+}
+
+section.bennett {
+    background-image: linear-gradient(180deg, rgb(141 43 42), rgb(164 81 61));
+    color: #ffffff;
+}
+
+section.bennett table {
+    color: #ffffff;
+}
+
+.build-bennett {
+    background-image: url('https://bn1301files.storage.live.com/y4mfd6B7kW5ogoD2aHtPMPri2mR7yaO5iNFmmLoR0--QgYaOw-B_gRRoISC0hUQNNDR-n4ngCcphGucDE9zrCPSjYPpqpbHjNP25hJcwPVMVBo6yJdX8_eMQaSVjzYAMZg9V9ojzzVgv3BF1F4K6zVBuuZKE7QAefoTsJQtHHVIBURcetL9c1-ctYXxde8ba5VP?width=1920&height=320&cropmode=none');
+    background-color: #792422;
+}
+
+.build-bennett>* {
+    text-shadow: 1px 1px 1px rgb(33 123 114) !important
+}
+
+.navbar-bennett,
+.footer-bennett {
+    background-color: #792422 !important;
+}

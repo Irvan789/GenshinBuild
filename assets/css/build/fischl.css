@@ -1,0 +1,29 @@
+.btn-fischl {
+    background-image: url('../../img/character/mondstadt/Fischl_Night_Raven.png');
+    border: 1px solid #7e64c4 !important;
+    background-color: #937bc7 !important;
+    background-position: -10px;
+}
+
+section.fischl {
+    background-image: linear-gradient(180deg, rgb(107 41 141), rgb(158 87 188));
+    color: #ffffff;
+}
+
+section.fischl table {
+    color: #ffffff;
+}
+
+.build-fischl {
+    background-image: url('https://bn1301files.storage.live.com/y4mD0cqPrF-Tn36dBxn07eHduNuwNDJGC4uV_vSkw7CQ3EpZlq3kO-l-F7mE8h9Q1dh-qlVHjEl8j1GVqWKGlaNw_W0zQPNvTzwXu40xNVA2siejqd1ZiJzhBDBU-RaXxz3wVxlvXyvBmgrIKXWA1ZYJuhnbWVop61ZveaWYuGFCEOyRSwuXIcBjQkRG12Gjkfz?width=1920&height=320&cropmode=none');
+    background-color: #592886;
+}
+
+.build-fischl>* {
+    text-shadow: 1px 1px 1px rgb(33 123 114) !important
+}
+
+.navbar-fischl,
+.footer-fischl {
+    background-color: #592886 !important;
+}

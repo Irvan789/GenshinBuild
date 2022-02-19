@@ -1,0 +1,23 @@
+{
+    "name": "Mona",
+    "level": "90/90",
+    "cons": "4",
+    "stat": {
+        "HP": "16092",
+        "ATK": "1365",
+        "DEF": "693",
+        "EM": "257",
+        "ER": "206.5",
+        "CR": "63.3",
+        "CDM": "162.6"
+    },
+    "weapon": "https://bn1301files.storage.live.com/y4mb4RmlLr0B4Ojv3idbqUV-_w1Ss6BOIlM7LDNQN9DvOwqydEf0cWUpxa-M5gRMj2EDVs3Xq_DuJVcl7R7ae2EgJqAPs2cgAOMVvmAdWNBX_LedlS5wHJtSSOtw71SjWEBCAhtsFk6A96GgWw54U5WorsMtAOAceYXZMTZjzY8FPORGmHFpDNW9vpjPrdCAV6u?width=260&height=415&cropmode=none",
+    "artifacts": {
+        "flower": "https://bn1301files.storage.live.com/y4mgGo2SNSPj2JQdBOLX9c1mN5gEP0z2wII9VeP0NpjNjVGZmuHpYCe-q5H6Bia42cO3xLnuK-kdt_lXFOjEBRObuIj2d0qf4JqocyVA1Sj9XPbkf263NJnjxxjKcY97V1ZfqgIEbzHU4GJS3SUw_MhhowVuW7U8IZrcLXjsDCp8Tao5jJfUVR02xrHeNQDigqf?width=260&height=415&cropmode=none",
+        "plume": "https://bn1301files.storage.live.com/y4m0vW1oXN8wR_lKlrIcxqqx2PgtEQp7vGFVMEi7drlum6eThBxsZvL58SRRLskxOWTxDf3lWi3g7G6txQqx4I8paDH7hmCAG9R0SYwc8QXgNldXLCdaJu2DIhXBKsYYJUHaJAg48hkJf4u_qpZUMRjfMqyDUtpeKqrIFqUuUxUBKMt9L-r92w4YWCJLjV_sLpR?width=260&height=415&cropmode=none",
+        "eon": "https://bn1301files.storage.live.com/y4m73XpkxhmhQ6h8X-dphTb3_t8eKQe5_90CPzRv_JheLgSjkLqzwuDZ84jnjR-MgELeqxMyei9DKK6LWEmf9Ug1aOecUsYadZ50r2Ys7beWzkbbpBkqdD4DF-1rCupDXryXM74eZ7IV0Y4aD6LpgDoA7ffTiwsQM13Y10Tn7P3UnpAunffoWF3DXXEfkWrLeSK?width=260&height=415&cropmode=none",
+        "goblet": "https://bn1301files.storage.live.com/y4m0wVJ7g8llpwBfu-n2QCz0NaQcvF_Q77w3xgkKKqn35LNcJWEyZm6MdeIGfXE1Bzwkc5imQiEGERz-y_srfHFKc196kk5L3sZgjXaQpED2d3s6D5JrTdiV25Gz1Pr7kse0-cMcpieZ_IYiBOsSrllAUUC2WddZhTalu7krLOg1AuhiM_wK4ychLB6AgEANPIj?width=260&height=415&cropmode=none",
+        "circlet": "https://bn1301files.storage.live.com/y4mIP4vnVQvWKdV_KzXVXyZiioCIMyq7wSzNF2Ung1_ORv2hsUSBQE6okh3hMdf5ZyrHMsxBiHjEHqCeT1lmCAKsG9jFM3HR7RxS4q_cESpJwLlyqWOJeLzVS0giokscG7HdsdtwXZ3gAXalwkIpcy-4ReFY8ef2jxCSqOj9_TvqYmbW_hmhIMUqVDB00UByvoO?width=260&height=415&cropmode=none"
+    },
+    "talents": "2/2/11"
+}

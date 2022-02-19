@@ -1,8 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
+@import url('../css/build/jean.css');
 @import url('../css/build/venti.css');
+@import url('../css/build/bennett.css');
+@import url('../css/build/noelle.css');
+@import url('../css/build/fischl.css');
+@import url('../css/build/mona.css');
+@import url('../css/build/diona.css');
+@import url('../css/build/xiao.css');
+@import url('../css/build/xiangling.css');
+@import url('../css/build/xingqiu.css');
 @import url('../css/build/keqing.css');
+@import url('../css/build/zhongli.css');
 @import url('../css/build/ganyu.css');
+@import url('../css/build/shenhe.css');
 @import url('../css/build/ayaka.css');
 
 @font-face {

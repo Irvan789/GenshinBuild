@@ -1,0 +1,29 @@
+.btn-noelle {
+    background-image: url('../../img/character/mondstadt/Noelle_Protector.png');
+    border: 1px solid #b09648 !important;
+    background-color: #b99c46 !important;
+    background-position: -10px;
+}
+
+section.noelle {
+    background-image: linear-gradient(180deg, rgb(141 83 30), rgb(174 149 64));
+    color: #ffffff;
+}
+
+section.noelle table {
+    color: #ffffff;
+}
+
+.build-noelle {
+    background-image: url('https://bn1301files.storage.live.com/y4mZ09mc08Vntw6ftpjpquSxbWpsOMuL86H-x3dEN9In_p-AuMP9IaxbHpvNeFrgvL1jZQAeoSzbobhexXkeH1KTRGLFjF8mx2JJsDx7qiY9QTPNCSH9nQzKPwKOUVIHUgClhce9CJG7yltpGhRYqJXLj4CnsaFc0xogLeDnKsL6ZqIrEI2p48FxGKSqOItJjMj?width=1920&height=320&cropmode=none');
+    background-color: #9d5a20;
+}
+
+.build-noelle>* {
+    text-shadow: 1px 1px 1px rgb(33 123 114) !important
+}
+
+.navbar-noelle,
+.footer-noelle {
+    background-color: #9d5a20 !important;
+}
