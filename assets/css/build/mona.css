@@ -20,7 +20,7 @@ section.mona table {
 }
 
 .build-mona>* {
-    text-shadow: 1px 1px 1px rgb(33 123 114) !important
+    text-shadow: 1px 1px 1px rgb(23 46 102) !important;
 }
 
 .navbar-mona,
