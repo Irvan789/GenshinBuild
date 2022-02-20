@@ -1,10 +1,3 @@
-.btn-xiangling {
-    background-image: url('../../img/character/liyue/Xiangling_Fresh_from_the_Pan.png');
-    border: 1px solid #e8a240 !important;
-    background-color: #d47f48 !important;
-    background-position: -10px;
-}
-
 section.xiangling {
     background-image: linear-gradient(180deg, rgb(121 36 26), rgb(161 82 65));
     color: #ffffff;
@@ -24,6 +17,7 @@ section.xiangling table {
 }
 
 .navbar-xiangling,
+.modal-content,
 .footer-xiangling {
     background-color: #8f2c1e;
 }

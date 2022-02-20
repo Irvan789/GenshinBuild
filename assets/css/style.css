@@ -1,22 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-@import url('../css/build/jean.css');
-@import url('../css/build/venti.css');
-@import url('../css/build/bennett.css');
-@import url('../css/build/noelle.css');
-@import url('../css/build/fischl.css');
-@import url('../css/build/mona.css');
-@import url('../css/build/diona.css');
-
-@import url('../css/build/xiao.css');
-@import url('../css/build/xiangling.css');
-@import url('../css/build/xingqiu.css');
-@import url('../css/build/keqing.css');
-@import url('../css/build/zhongli.css');
-@import url('../css/build/ganyu.css');
-@import url('../css/build/shenhe.css');
-
-@import url('../css/build/ayaka.css');
+@import url('./button.css');
 
 @font-face {
     font-family: "HYWenHei";
@@ -199,6 +183,10 @@ section {
     min-height: calc(100vh - 114px);
 }
 
+input[type="text"] {
+    font-weight: 600;
+}
+
 .build {
     font-family: "HYWenHei", sans-serif !important;
     color: #FFFFFF;
@@ -230,6 +218,17 @@ table.table-stat tr td:last-child {
 .card img {
     border: none !important;
     border-radius: 0.5rem !important;
+}
+
+.modal .btn-close {
+    opacity: 1 !important;
+}
+
+.modal .modal-img {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
 @media only screen and (max-width: 768px) {

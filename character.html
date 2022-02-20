@@ -27,6 +27,11 @@
             });
         });
     </script>
+    <style type="text/css">
+        img {
+            cursor: pointer;
+        }
+    </style>
 </head>
 
 <body>
@@ -63,6 +68,21 @@
         &copy; 2022
     </footer>
 
+    <div class="modal fade" id="CharModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content text-white">
+                <div class="modal-header border-bottom-0 shadow-sm">
+                    <h6 class="modal-title fw-700"></h6>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-img"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script type="text/javascript" src="./assets/js/app.js"></script>
     <script type="text/javascript">
         let urlOrign = window.location.origin;
@@ -80,8 +100,7 @@
                         </div>
                     </div>
                 </div>
-                `
-            ).addClass("d-flex align-items-center");
+            `).addClass("d-flex align-items-center");
             setTimeout(function () {
                 location.href = urlOrign;
             }, 1000);
@@ -93,13 +112,12 @@
             });
             $(document).ready(function () {
                 $.getJSON(`${urlOrign}/assets/json/${urlQuery.get("name").toLowerCase()}.json`, function (data) {
-                    let pageTitle = `Irvan789 | ${data.name}`;
-                    $(document).attr("title", pageTitle);
+                    $(document).attr("title", `Irvan789 | ${data.name}`);
+                    $("head").append(`<link rel="stylesheet" href="${urlOrign}/assets/css/build/${urlQuery.get("name").toLowerCase()}.css">`);
                     $("nav.navbar").removeClass('navbar-home').addClass(`navbar-${urlQuery.get("name").toLowerCase()}`);
                     $("footer").removeClass('footer-home').addClass(`footer-${urlQuery.get("name").toLowerCase()}`);
-
                     $("section#CharacterBuild").append(
-                    `
+                        `
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-12 build build-${urlQuery.get("name").toLowerCase()} shadow-sm">
@@ -187,32 +205,32 @@
                                 <div class="row row-cols-2 row-cols-sm-3 g-2 m-auto" style="max-width: 1060px;">
                                     <div class="col">
                                         <div class="card">
-                                            <img src="${data.weapon}" class="card-img-top" alt="Wep">
+                                            <img src="${data.weapon}" class="card-img-top" alt="Weapon">
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="card">
-                                            <img src="${data.artifacts.flower}" class="card-img-top" alt="Flower">
+                                            <img src="${data.artifacts.flower}" class="card-img-top" alt="Flower of Life">
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="card">
-                                            <img src="${data.artifacts.plume}" class="card-img-top" alt="Plume">
+                                            <img src="${data.artifacts.plume}" class="card-img-top" alt="Plume of Death">
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="card">
-                                            <img src="${data.artifacts.eon}" class="card-img-top" alt="Eon">
+                                            <img src="${data.artifacts.eon}" class="card-img-top" alt="Sands of Eon">
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="card">
-                                            <img src="${data.artifacts.goblet}" class="card-img-top" alt="Goblet">
+                                            <img src="${data.artifacts.goblet}" class="card-img-top" alt="Goblet of Eonothem">
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="card">
-                                            <img src="${data.artifacts.circlet}" class="card-img-top" alt="Circlet">
+                                            <img src="${data.artifacts.circlet}" class="card-img-top" alt="Circlet of Logos">
                                         </div>
                                     </div>
                                 </div>
@@ -220,9 +238,15 @@
                         </div>
                     </div>
                     `).addClass(urlQuery.get("name").toLowerCase());
+                    let modal = new bootstrap.Modal(document.getElementById('CharModal'));
+                    $(document).on("click", "img", function () {
+                        $(".modal .modal-title").html(`${data.name} | ${$(this).attr("alt")}`);
+                        $(".modal .modal-img").css("background-image", `url('${$(this).attr("src")}')`);
+                        modal.show();
+                    });
                 }).fail(function () {
                     $("section#CharacterBuild").append(
-                    `
+                        `
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-12 text-center fw-bold">
@@ -242,8 +266,7 @@
                             </div>
                         </div>
                     </div>
-                    `
-                    ).addClass("d-flex align-items-center");
+                    `).addClass("d-flex align-items-center");
                 });
             });
         }

@@ -1,0 +1,116 @@
+/*
+ | Mondstadt
+*/
+
+.btn-jean {
+    background-image: url('../img/character/mondstadt/Jean_The_Winds_Course.png');
+    border: 1px solid #5cbea7 !important;
+    background-color: #6dd3c1 !important;
+    background-position: -10px;
+}
+
+.btn-venti {
+    background-image: url('../img/character/mondstadt/Venti_Azure_Sky.png');
+    border: 1px solid #4faeb1 !important;
+    background-color: #5EB9BF !important;
+    background-position: -10px;
+}
+
+.btn-bennett {
+    background-image: url('../img/character/mondstadt/Bennett_Recognition.png');
+    border: 1px solid #b9493d !important;
+    background-color: #aa5044 !important;
+    background-position: -10px;
+}
+
+.btn-noelle {
+    background-image: url('../img/character/mondstadt/Noelle_Protector.png');
+    border: 1px solid #b09648 !important;
+    background-color: #b99c46 !important;
+    background-position: -10px;
+}
+
+.btn-fischl {
+    background-image: url('../img/character/mondstadt/Fischl_Night_Raven.png');
+    border: 1px solid #7e64c4 !important;
+    background-color: #937bc7 !important;
+    background-position: -10px;
+}
+
+.btn-mona {
+    background-image: url('../img/character/mondstadt/Mona_Starry_Sky.png');
+    border: 1px solid #7e69a2 !important;
+    background-color: #9985d3 !important;
+    background-position: -10px;
+}
+
+.btn-diona {
+    background-image: url('../img/character/mondstadt/Diona_Meow!.png');
+    border: 1px solid #d29391 !important;
+    background-color: #eda7a4 !important;
+    background-position: -10px;
+}
+
+/*
+ | Liyue Harbor
+*/
+
+.btn-xiao {
+    background-image: url('../img/character/liyue/Xiao_Mask.png');
+    border: 1px solid #2e9ba8 !important;
+    background-color: #43b2b9 !important;
+    background-position: -10px;
+}
+
+.btn-xiangling {
+    background-image: url('../img/character/liyue/Xiangling_Fresh_from_the_Pan.png');
+    border: 1px solid #e8a240 !important;
+    background-color: #d47f48 !important;
+    background-position: -10px;
+}
+
+.btn-xingqiu {
+    background-image: url('../img/character/liyue/Xingqiu_Rainbow.png');
+    border: 1px solid #4994d6 !important;
+    background-color: #63b7e9 !important;
+    background-position: -10px;
+}
+
+.btn-keqing {
+    background-image: url('../img/character/liyue/Keqing_Lightning_Stiletto.png');
+    border: 1px solid #9a7be0 !important;
+    background-color: #a381e4 !important;
+    background-position: -10px;
+}
+
+.btn-zhongli {
+    background-image: url('../img/character/liyue/Zhongli_Planet_Befall.png');
+    border: 1px solid #7a4946 !important;
+    background-color: #9a6850 !important;
+    background-position: -10px;
+}
+
+.btn-ganyu {
+    background-image: url('../img/character/liyue/Ganyu_Qilin.png');
+    border: 1px solid #67a9e5 !important;
+    background-color: #7ebcec !important;
+    background-position: -10px;
+}
+
+.btn-shenhe {
+    background-image: url('../img/character/liyue/Shenhe_Comb.png');
+    border: 1px solid #b3c4d3 !important;
+    background-color: #969fa3 !important;
+    background-position: -10px;
+}
+
+/*
+ | Inazuma
+*/
+
+.btn-kamisato_ayaka {
+    background-image: url('../img/character/inazuma/Kamisato_Ayaka_Folding_Fan.png');
+    border: 1px solid #5b6793 !important;
+    background-color: #507cb6 !important;
+    background-position: -10px;
+}

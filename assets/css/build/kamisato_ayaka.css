@@ -1,10 +1,3 @@
-.btn-kamisato_ayaka {
-    background-image: url('../../img/character/inazuma/Kamisato_Ayaka_Folding_Fan.png');
-    border: 1px solid #5b6793 !important;
-    background-color: #507cb6 !important;
-    background-position: -10px;
-}
-
 section.kamisato_ayaka {
     background-image: linear-gradient(180deg, rgb(28 107 151), rgb(84 173 200));
     color: #ffffff;
@@ -24,6 +17,7 @@ section.kamisato_ayaka table {
 }
 
 .navbar-kamisato_ayaka,
+.modal-content,
 .footer-kamisato_ayaka {
     background-color: #1a6592;
 }

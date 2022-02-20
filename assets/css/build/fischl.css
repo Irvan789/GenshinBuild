@@ -1,10 +1,3 @@
-.btn-fischl {
-    background-image: url('../../img/character/mondstadt/Fischl_Night_Raven.png');
-    border: 1px solid #7e64c4 !important;
-    background-color: #937bc7 !important;
-    background-position: -10px;
-}
-
 section.fischl {
     background-image: linear-gradient(180deg, rgb(107 41 141), rgb(158 87 188));
     color: #ffffff;
@@ -24,6 +17,7 @@ section.fischl table {
 }
 
 .navbar-fischl,
+.modal-content,
 .footer-fischl {
     background-color: #592886 !important;
 }

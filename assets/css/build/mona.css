@@ -1,10 +1,3 @@
-.btn-mona {
-    background-image: url('../../img/character/mondstadt/Mona_Starry_Sky.png');
-    border: 1px solid #7e69a2 !important;
-    background-color: #9985d3 !important;
-    background-position: -10px;
-}
-
 section.mona {
     background-image: linear-gradient(180deg, rgb(23 46 102), rgb(37 107 181));
     color: #ffffff;
@@ -24,6 +17,7 @@ section.mona table {
 }
 
 .navbar-mona,
+.modal-content,
 .footer-mona {
     background-color: #132755 !important;
 }

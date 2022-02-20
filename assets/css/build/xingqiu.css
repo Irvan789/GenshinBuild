@@ -1,10 +1,3 @@
-.btn-xingqiu {
-    background-image: url('../../img/character/liyue/Xingqiu_Rainbow.png');
-    border: 1px solid #4994d6 !important;
-    background-color: #63b7e9 !important;
-    background-position: -10px;
-}
-
 section.xingqiu {
     background-image: linear-gradient(180deg, rgb(20 50 147), rgb(33 103 189));
     color: #ffffff;
@@ -24,6 +17,7 @@ section.xingqiu table {
 }
 
 .navbar-xingqiu,
+.modal-content,
 .footer-xingqiu {
     background-color: #153087;
 }
