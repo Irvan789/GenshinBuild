@@ -63,7 +63,17 @@
         </nav>
     </header>
 
-    <section id="CharacterBuild"> </section>
+    <section id="CharacterBuild" class="d-flex align-items-center">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 text-center fw-bold">
+                    <div class="fs-4">
+                        Loading...
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <div class="modal fade" id="CharModal" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-fullscreen">
@@ -80,7 +90,7 @@
     </div>
 
     <footer class="footer-home">
-        &copy; 2022
+        &copy; 2022 | CrunchyNuts 800171178
     </footer>
 
     <script type="text/javascript" src="./assets/js/app.js"></script>
@@ -88,7 +98,7 @@
         let urlQuery = new URLSearchParams(window.location.search);
 
         if (urlQuery == null || !urlQuery.get("name")) {
-            $("section#CharacterBuild").append(
+            $("section#CharacterBuild").html("").append(
                 `
                 <div class="container-fluid">
                     <div class="row">
@@ -115,7 +125,7 @@
                     $("head").append(`<link rel="stylesheet" href="./assets/css/build/${urlQuery.get("name").toLowerCase()}.css">`);
                     $("nav.navbar").removeClass('navbar-home').addClass(`navbar-${urlQuery.get("name").toLowerCase()}`);
                     $("footer").removeClass('footer-home').addClass(`footer-${urlQuery.get("name").toLowerCase()}`);
-                    $("section#CharacterBuild").append(
+                    $("section#CharacterBuild").html("").append(
                         `
                     <div class="container-fluid">
                         <div class="row">
@@ -236,7 +246,7 @@
                             </div>
                         </div>
                     </div>
-                    `).addClass(urlQuery.get("name").toLowerCase());
+                    `).removeClass("d-flex align-items-center").addClass(urlQuery.get("name").toLowerCase());
                     let modal = new bootstrap.Modal(document.getElementById('CharModal'));
                     $(document).on("click", "img", function () {
                         $(".modal .modal-title").html(`${data.name} | ${$(this).attr("alt")}`);
@@ -244,7 +254,7 @@
                         modal.show();
                     });
                 }).fail(function () {
-                    $("section#CharacterBuild").append(
+                    $("section#CharacterBuild").html("").append(
                         `
                     <div class="container-fluid">
                         <div class="row">
