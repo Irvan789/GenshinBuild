@@ -124,6 +124,12 @@
                 $.getJSON(`./assets/json/${urlQuery.get("name").toLowerCase()}.json`, function (data) {
                     $(document).attr("title", `Irvan789 | ${data.name}`);
                     $("head").append(`<link rel="stylesheet" href="./assets/css/build/${urlQuery.get("name").toLowerCase()}.css">`);
+                    $(`<meta name="theme-color" content="#65517a">`).insertAfter('meta[name="viewport"]');
+                    $(`<meta property="og:type" content="website" />`).insertAfter('meta[name="viewport"]');
+                    $(`<meta property="og:img" content="./assets/img/bg_keqing.png" />`).insertAfter('meta[name="viewport"]');
+                    $(`<meta property="og:url" content="${window.location.href}" />`).insertAfter('meta[name="viewport"]');
+                    $(`<meta property="og:description" content="Genshin Impact ${data.name} Character Build" />`).insertAfter('meta[name="viewport"]');
+                    $(`<meta property="og:title" content="Genshin Build | ${data.name}" />`).insertAfter('meta[name="viewport"]');
                     $("nav.navbar").removeClass('navbar-home').addClass(`navbar-${urlQuery.get("name").toLowerCase()}`);
                     $("footer").removeClass('footer-home').addClass(`footer-${urlQuery.get("name").toLowerCase()}`);
                     $("section#CharacterBuild").html(
@@ -253,7 +259,7 @@
                                                 Change Log:
                                             </h6>
                                             ${data.changeLog[0] == null ?
-                                                `
+                            `
                                                 <div class="fs-14 fw-bold">
                                                     No Change.
                                                 </div>
@@ -265,7 +271,7 @@
                                                     ${data.changeLog[0].desc}
                                                 </p>        
                                                 `
-                                            }
+                        }
                                         </div>
                                     </div>
                                 </div>
