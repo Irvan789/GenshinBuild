@@ -160,14 +160,18 @@ body {
     margin: auto;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 0.175rem !important;
-    font-size: 1.175rem !important;
+    border-radius: 0.15rem !important;
+    font-size: 1.05rem !important;
     font-weight: 700 !important;
-    color: #FFFFFF !important;
-    padding: 0.5rem 0.75rem !important;
-    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.375);
+    padding: 0.575rem 0.75rem !important;
     max-width: 200px;
     width: 100%;
+    transition: all 0.15s !important;
+}
+
+.btn-char:hover {
+    color: #ffffff !important;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25) !important;
 }
 
 .navbar-home,
@@ -228,6 +232,14 @@ table.table-stat tr td:last-child {
     border-radius: .5rem;
     color: #ffffff;
     text-shadow: 1px 1px 1px rgb(0 0 0 / 25%);
+}
+
+.modal.fade .modal-dialog {
+    transform: scale(0.7) !important;
+}
+
+.modal.fade.show .modal-dialog {
+    transform: scale(1) !important;
 }
 
 .modal .btn-close {
