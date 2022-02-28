@@ -4,4 +4,4 @@ Welcome to 'Genshin Impact Character Build'. I make this website to help another
 
 Visit page [irvan789.github.io](https://irvan789.github.io/GenshinBuild/)
 
-Donate me: CrunchyNuts | 800171178 (Asia)
+Support me: CrunchyNuts | 800171178 (Asia)
