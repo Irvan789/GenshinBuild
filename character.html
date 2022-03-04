@@ -6,6 +6,8 @@
     <title>
         Irvan789
     </title>
+    <meta name="title" content="Genshin Impact Character Build">
+    <meta name="description" content="Find What Best Build for Your Genshin Impact Character">
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -45,8 +47,9 @@
                                         data-bs-placement="left" title="Copy Link" onclick="copyLinkBuild()">
                                         <i class="fa-solid fa-link"></i>
                                     </a>
-                                    <a href="https://github.com/Irvan789/GenshinBuild" class="menu-link" data-bs-toggle="tooltip"
-                                        data-bs-placement="left" title="Github" target="_blank">
+                                    <a href="https://github.com/Irvan789/GenshinBuild" class="menu-link"
+                                        data-bs-toggle="tooltip" data-bs-placement="left" title="Github"
+                                        target="_blank">
                                         <i class="fa-brands fa-github"></i>
                                     </a>
                                 </div>
@@ -145,6 +148,7 @@
             const loadCharacterBuild = (name) => {
                 $.getJSON(`./assets/json/${name.toLowerCase()}.json`, function (data) {
                     $(document).attr("title", `Irvan789 | ${data.name}`);
+                    $("meta[name=title]").attr("content", `Genshin Impact Character Build | ${data.name}`);
                     $(".character .character-top").html(`
                         <!--
                         <div class="character-icon" style="background-image: url('./assets/img/Keqing.png');"></div>
