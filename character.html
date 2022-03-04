@@ -26,138 +26,139 @@
         gtag('js', new Date());
         gtag('config', 'G-ZCP2SQ0M8F');
     </script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('.navbar-toggler').on('click', function () {
-                if ($(this).hasClass("collapsed")) {
-                    $('.animated-icon').removeClass('open');
-                } else {
-                    $('.animated-icon').addClass('open');
-                }
-            });
-        });
-    </script>
-    <style type="text/css">
-        img {
-            cursor: pointer;
-        }
-    </style>
 </head>
 
-<body>
-    <header class="d-inline">
-        <nav class="navbar sticky-top navbar-expand-md navbar-dark navbar-home fw-700 shadow-sm">
-            <div class="container-fluid container-1080">
-                <a class="navbar-brand fs-6" href="./">
-                    Irvan789
-                </a>
-                <button class="navbar-toggler border-0 pt-2 pb-2 ps-0 pe-0" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <div class="animated-icon">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="./">Home</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <main>
-        <section id="CharacterBuild" class="d-flex align-items-center">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12 text-center fw-bold">
-                        <div class="fs-4">
-                            Loading...
+<body style="background-color: #f3ebe1;">
+    <section id="CharacterBuild" class="d-flex align-items-center">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 p-3">
+                    <div class="character">
+                        <div class="character-border">
+                            <div class="character-body">
+                                <div class="character-menu">
+                                    <a href="./" class="menu-home" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        title="Home">
+                                        <i class="fa-solid fa-house"></i>
+                                    </a>
+                                    <a href="javascript:void(0)" class="menu-link" data-bs-toggle="tooltip"
+                                        data-bs-placement="left" title="Copy Link" onclick="copyLinkBuild()">
+                                        <i class="fa-solid fa-link"></i>
+                                    </a>
+                                    <a href="https://github.com/Irvan789/GenshinBuild" class="menu-link" data-bs-toggle="tooltip"
+                                        data-bs-placement="left" title="Github" target="_blank">
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                </div>
+                                <div class="character-main">
+                                    <div class="character-top">
+                                        <!--Character Icon and Name-->
+                                        <p class="character-name">
+                                            Loading...
+                                        </p>
+                                    </div>
+                                    <div class="character-search">
+                                        <form class="ms-auto text-right" autocomplete="off" style="max-width: 200px;">
+                                            <div class="input-group mb-0">
+                                                <input type="text" class="form-control" placeholder="Find Character"
+                                                    name="name">
+                                                <button class="btn text-white">
+                                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <main>
+                                        <!--Main Content Displayed in Here-->
+                                    </main>
+                                    <div class="character-copyright">
+                                        &copy; 2022 | CrunchyNuts 800171178
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div class="modal fade" id="CharModal" tabindex="-1" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content text-white">
-                    <div class="modal-header border-bottom-0 shadow-sm">
-                        <h6 class="modal-title fw-700"></h6>
-                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="modal-img"></div>
                     </div>
                 </div>
             </div>
         </div>
-    </main>
-
-    <footer class="footer-home">
-        &copy; 2022 | CrunchyNuts 800171178
-    </footer>
-
-    <script type="text/javascript" src="./assets/js/app.js"></script>
+    </section>
+    <div class="modal fade" id="CharModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content text-white">
+                <div class="modal-header border-bottom-0 shadow-sm">
+                    <h6 class="modal-title fw-700"></h6>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-img"></div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script type="text/javascript">
+        const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        const tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
         let urlQuery = new URLSearchParams(window.location.search);
-
+        const copyLinkBuild = () => {
+            const webURL = window.location.href;
+            navigator.clipboard.writeText(webURL)
+                .then(() => {
+                    alert("Copy Link Successfully!");
+                }).catch((error) => {
+                    alert(error.message);
+                })
+        }
         if (urlQuery == null || !urlQuery.get("name")) {
-            $("section#CharacterBuild").html(
-                `
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-12 text-center fw-bold">
-                            <div class="fs-4">
-                                Error, Terjadi Kesalahan!
-                            </div>
+            $(".character .character-top").html(`
+                <p class="character-name">
+                    404 Not Found
+                </p>
+            `);
+            $(".character .character-main main").html(`
+                <div class="row">
+                    <div class="col-12 text-center fw-bold">
+                        <div class="fs-4">
+                            Oops, Something Wrong!
                         </div>
                     </div>
                 </div>
-            `).addClass("d-flex align-items-center");
+            `);
             setTimeout(function () {
                 location.href = `./`;
             }, 1000);
         } else {
+            $(document).ready(function () {
+                loadCharacterBuild(urlQuery.get("name"));
+            });
             $(document).on("submit", "form", function (e) {
                 e.preventDefault();
                 let data = new FormData(this);
-                location.href = `./character?name=${(data.get('name')).replace(/\s/g, '_')}`;
+                loadCharacterBuild((data.get('name')).replace(/\s/g, '_'));
+                history.pushState({}, "", `./character?name=${(data.get('name')).replace(/\s/g, '_')}`);
             });
-            $(document).ready(function () {
-                $.getJSON(`./assets/json/${urlQuery.get("name").toLowerCase()}.json`, function (data) {
+            $(window).bind("popstate", function () {
+                let urlQuery = new URLSearchParams(window.location.search);
+                loadCharacterBuild(urlQuery.get("name"));
+            });
+            const loadCharacterBuild = (name) => {
+                $.getJSON(`./assets/json/${name.toLowerCase()}.json`, function (data) {
                     $(document).attr("title", `Irvan789 | ${data.name}`);
-                    $("head").append(`<link rel="stylesheet" href="./assets/css/build/${urlQuery.get("name").toLowerCase()}.css">`);
-                    $("nav.navbar").removeClass('navbar-home').addClass(`navbar-${urlQuery.get("name").toLowerCase()}`);
-                    $("footer").removeClass('footer-home').addClass(`footer-${urlQuery.get("name").toLowerCase()}`);
-                    $("section#CharacterBuild").html(
-                        `
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-12 build build-${urlQuery.get("name").toLowerCase()} shadow-sm">
-                                <div class="text-center fs-2">
-                                    ${data.name}
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <h3 class="fw-bold text-center mt-4 mb-4">
-                                    Character Stat
-                                </h3>
-                                <div class="d-stat m-auto">
+                    $(".character .character-top").html(`
+                        <!--
+                        <div class="character-icon" style="background-image: url('./assets/img/Keqing.png');"></div>
+                        <img class="character-icon-border" src="./assets/img/border.png">
+                        -->
+                        <p class="character-name">
+                            ${data.name} | Level ${data.level} C${data.cons}
+                        </p>
+                    `);
+                    $(".character .character-main main").html(`
+                        <div class="row" style="padding: 0rem 0.75rem;">
+                            <div class="col-12 build build-${name.toLowerCase()} shadow-sm">
+                                <div class="d-stat me-auto">
                                     <table class="table table-stat table-borderless mb-0">
-                                        <tr>
-                                            <td>
-                                                Level ${data.level}
-                                            </td>
-                                            <td>
-                                                C${data.cons}
-                                            </td>
-                                        </tr>
                                         <tr>
                                             <td>
                                                 Max HP
@@ -217,11 +218,11 @@
                                     </table>
                                 </div>
                             </div>
-                            <div class="col-12 pb-4">
+                            <div class="col-12 p-0">
                                 <h3 class="fw-bold text-center mt-4 mb-4">
                                     Weapon & Artifact
                                 </h3>
-                                <div class="row row-cols-2 row-cols-sm-3 g-2 m-auto" style="max-width: 1060px;">
+                                <div class="row row-card row-cols-2 row-cols-sm-3 g-0 m-auto">
                                     <div class="col">
                                         <div class="card">
                                             <img src="${data.weapon}" class="card-img-top" alt="Weapon">
@@ -254,63 +255,35 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 pb-4">
-                                <div class="row g-2 row-note">
-                                    <div class="col-12">
-                                        <div class="note">
-                                            <h6 class="mb-2 fw-bold">
-                                                Change Log:
-                                            </h6>
-                                            ${data.changeLog[0] == null ? `
-                                                <div class="fs-14 fw-bold">
-                                                    No Change.
-                                                </div>
-                                                ` : `
-                                                <div class="fs-14 fw-bold">
-                                                    ${data.changeLog[0].date}
-                                                </div>
-                                                <p class="mb-0 fs-14">
-                                                    ${data.changeLog[0].desc}
-                                                </p>        
-                                                `}
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
-                    </div>
-                    `).removeClass("d-flex align-items-center").addClass(urlQuery.get("name").toLowerCase());
+                    `);
                     let modal = new bootstrap.Modal(document.getElementById('CharModal'));
-                    $(document).on("click", "img", function () {
+                    $(document).on("click", ".card img", function () {
                         $(".modal .modal-title").html(`${data.name} | ${$(this).attr("alt")}`);
                         $(".modal .modal-img").css("background-image", `url('${$(this).attr("src")}')`);
                         modal.show();
                     });
+                    $(document).on("click", ".modal .btn-close", function () {
+                        modal.hide();
+                    });
                 }).fail(function () {
-                    $("section#CharacterBuild").html(
-                        `
-                    <div class="container-fluid">
+                    $(document).attr("title", `Irvan789 | 404 Not Found`);
+                    $(".character .character-top").html(`
+                        <p class="character-name">
+                            404 Not Found
+                        </p>
+                    `);
+                    $(".character .character-main main").html(`
                         <div class="row">
                             <div class="col-12 text-center fw-bold">
                                 <div class="fs-4">
-                                    Oops, Karakter "${(urlQuery.get("name")).replace(/\W|_/g, " ")}" Tidak Di Temukan!
+                                    Oops, Karakter "${(name).replace(/\W|_/g, " ")}" Tidak Di Temukan!
                                 </div>
                             </div>
-                            <div class="col-12">
-                                <form class="m-auto text-center" autocomplete="off" style="max-width: 300px;">
-                                    <div class="input-group input-group-sm mt-4 mb-0">
-                                        <input type="text" class="form-control" placeholder="Nama Karakter" name="name">
-                                        <button class="btn btn-success">
-                                            <i class="fa-solid fa-magnifying-glass"></i>    
-                                        </button>
-                                    </div>
-                                </form>
-                            </div>
                         </div>
-                    </div>
-                    `).addClass("d-flex align-items-center");
+                    `);
                 });
-            });
+            }
         }
     </script>
 </body>
