@@ -1,5 +1,7 @@
 {
     "name": "Diona",
+    "iconName": "Diona.png",
+    "region": "Mondstadt",
     "level": "90/90",
     "cons": "6",
     "stat": {

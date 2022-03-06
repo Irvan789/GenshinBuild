@@ -1,5 +1,7 @@
 {
     "name": "Shenhe",
+    "iconName": "Shenhe.png",
+    "region": "Liyue",
     "level": "90/90",
     "cons": "0",
     "stat": {

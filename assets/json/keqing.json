@@ -1,5 +1,7 @@
 {
     "name": "Keqing",
+    "iconName": "Keqing.png",
+    "region": "Liyue",
     "level": "90/90",
     "cons": "1",
     "stat": {

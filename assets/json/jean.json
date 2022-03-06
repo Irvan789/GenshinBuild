@@ -1,5 +1,7 @@
 {
     "name": "Jean",
+    "iconName": "Jean.png",
+    "region": "Mondstadt",
     "level": "90/90",
     "cons": "3",
     "stat": {

@@ -1,5 +1,7 @@
 {
     "name": "Mona",
+    "iconName": "Mona.png",
+    "region": "Mondstadt",
     "level": "90/90",
     "cons": "4",
     "stat": {

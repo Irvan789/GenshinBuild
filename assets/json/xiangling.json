@@ -1,5 +1,7 @@
 {
     "name": "Xiangling",
+    "iconName": "Xiangling.png",
+    "region": "Liyue",
     "level": "90/90",
     "cons": "6",
     "stat": {

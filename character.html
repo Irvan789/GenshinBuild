@@ -54,11 +54,13 @@
                                     </a>
                                 </div>
                                 <div class="character-main">
-                                    <div class="character-top">
+                                    <div class="character-top load404">
                                         <!--Character Icon and Name-->
-                                        <p class="character-name">
-                                            Loading...
-                                        </p>
+                                        <div class="character-name-level">
+                                            <p class="character-name">
+                                                Loading...
+                                            </p>
+                                        </div>
                                     </div>
                                     <div class="character-search">
                                         <form class="ms-auto text-right" autocomplete="off" style="max-width: 200px;">
@@ -115,10 +117,12 @@
         }
         if (urlQuery == null || !urlQuery.get("name")) {
             $(".character .character-top").html(`
-                <p class="character-name">
-                    404 Not Found
-                </p>
-            `);
+                <div class="character-name-level">
+                    <p class="character-name">
+                        404 Not Found
+                    </p>
+                </div>
+            `).addClass("load404");
             $(".character .character-main main").html(`
                 <div class="row">
                     <div class="col-12 text-center fw-bold">
@@ -150,14 +154,17 @@
                     $(document).attr("title", `Irvan789 | ${data.name}`);
                     $("meta[name=title]").attr("content", `Genshin Impact Character Build | ${data.name}`);
                     $(".character .character-top").html(`
-                        <!--
-                        <div class="character-icon" style="background-image: url('./assets/img/Keqing.png');"></div>
+                        <div class="character-icon" style="background-image: url('./assets/img/character/${(data.region).toLowerCase()}/${data.iconName}');"></div>
                         <img class="character-icon-border" src="./assets/img/border.png">
-                        -->
-                        <p class="character-name">
-                            ${data.name} | Level ${data.level} C${data.cons}
-                        </p>
-                    `);
+                        <div class="character-name-level">
+                            <p class="character-name">
+                                ${data.name}
+                            </p>
+                            <p class="character-level">
+                                Level ${data.level} C${data.cons}
+                            </p>
+                        </div>
+                    `).removeClass("load404");
                     $(".character .character-main main").html(`
                         <div class="row" style="padding: 0rem 0.75rem;">
                             <div class="col-12 build build-${name.toLowerCase()} shadow-sm">
@@ -273,10 +280,12 @@
                 }).fail(function () {
                     $(document).attr("title", `Irvan789 | 404 Not Found`);
                     $(".character .character-top").html(`
-                        <p class="character-name">
-                            404 Not Found
-                        </p>
-                    `);
+                        <div class="character-name-level">
+                            <p class="character-name">
+                                404 Not Found
+                            </p>
+                        </div>
+                    `).addClass("load404");
                     $(".character .character-main main").html(`
                         <div class="row">
                             <div class="col-12 text-center fw-bold">

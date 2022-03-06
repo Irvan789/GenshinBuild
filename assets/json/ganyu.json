@@ -1,5 +1,7 @@
 {
     "name": "Ganyu",
+    "iconName": "Ganyu.png",
+    "region": "Liyue",
     "level": "90/90",
     "cons": "2",
     "stat": {

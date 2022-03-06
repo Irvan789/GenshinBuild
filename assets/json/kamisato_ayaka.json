@@ -1,5 +1,7 @@
 {
     "name": "Kamisato Ayaka",
+    "iconName": "Kamisato_Ayaka.png",
+    "region": "Inazuma",
     "level": "90/90",
     "cons": "0",
     "stat": {
