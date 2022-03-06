@@ -149,6 +149,7 @@
         }
         const saveAsImage = () => {
             let date = new Date();
+            let urlQuery = new URLSearchParams(window.location.search);
             let node = document.getElementById("CharacterBuild");
             preparePageDsiplay()
                 .then((v) => {
@@ -156,7 +157,7 @@
                     return htmlToImage.toPng(node, {
                         cacheBust: true
                     }).then(function (dataUrl) {
-                        download(dataUrl, `${($("title").text().split(/\s/g)[2]).toLocaleLowerCase()}_${window.location.hostname}.png`);
+                        download(dataUrl, `${(urlQuery.get("name")).toLocaleLowerCase()}_${window.location.hostname}.png`);
                     }).catch(function (error) {
                         console.error('Oops, something went wrong!', error);
                     });
