@@ -224,12 +224,13 @@ section {
     display: flex;
     align-items: center;
     position: absolute;
-    top: -44px;
+    top: -37px;
     left: 1.25rem;
 }
 
 .character .character-top.load404 {
     padding: 1.525rem 1rem;
+    top: -44px;
 }
 
 .character .character-top .character-name-level p {
