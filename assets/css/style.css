@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-@import url('./button.css');
-@import url('./build.css');
-
 @font-face {
     font-family: "HYWenHei";
     src: url('../font/HYWenHei-85W.woff2');
