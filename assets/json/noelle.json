@@ -1,5 +1,7 @@
 {
     "name": "Noelle",
+    "iconName": "Noelle.png",
+    "region": "Mondstadt",
     "level": "90/90",
     "cons": "6",
     "stat": {
