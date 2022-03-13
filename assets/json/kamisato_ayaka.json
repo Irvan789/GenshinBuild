@@ -1,26 +1,26 @@
 {
-  "name": "Kamisato Ayaka",
-  "iconName": "Kamisato_Ayaka.png",
-  "region": "Inazuma",
-  "level": "90/90",
-  "cons": "0",
-  "stat": {
-    "HP": "19495",
-    "ATK": "2586",
-    "DEF": "807",
-    "EM": "23",
-    "ER": "116.8",
-    "CR": "40.0",
-    "CDM": "222.6"
-  },
-  "enquipment": {
+    "name": "Kamisato Ayaka",
+    "iconName": "Kamisato_Ayaka.png",
+    "region": "Inazuma",
+    "level": "90/90",
+    "cons": "0",
+    "stat": {
+        "HP": "19495",
+        "ATK": "2586",
+        "DEF": "807",
+        "EM": "23",
+        "ER": "116.8",
+        "CR": "40.0",
+        "CDM": "222.6"
+    },
     "weapon": "https://bn1301files.storage.live.com/y4mF_lO50k4Ok6WEUolRztkEt13HYUFYeyPegR60J1V6UXnw0RuTNBBmX1_GcmFTEMXq5x1qwbcldKHuzgKfgN5oUYmLqEPthM02Nhi_M_ZDOHD0ATsjqB2ZilaTGgBw-0d9GorI0PzZ-KXGtUnCEiLLNgNmU4yFvibz1HZ19i6bgpOCTtYl9FrmYVp4CaMglWe?width=260&height=415&cropmode=none",
-    "flower": "https://bn1301files.storage.live.com/y4mJ68hXyw8-eXDxtNVMZ9tCIMosc-6Dax4XNY6e0d1GQv_xKqa1eKr9BhCG6WqycTFw1XqXjmN5acduFJJwevvYRRiU2Q-1XAzyY98sEOtNXjR9NyY291K9gttdb2Eu_WhPfuXHJKb_tcqRshUya4fT0QDkcXw7ejr8efCMaRxGhuvjRrTWju__lLXDHWgoAWX?width=260&height=415&cropmode=none",
-    "plume": "https://bn1301files.storage.live.com/y4mTJreZ8ooHJ3Lhx-LLJheHuPtqwPbFngOcjVlbL_0NkyZwkD0axSIsoUVzQ6UjSVT9I7NT0LPC2LQZLf-0rNw0Vm44SPI6fXJKTEBF2-yFD-zwZUPEuFbpI1hdGP8wKcn4vhLlw0_BbixALHz-3F2dMopLZRn9sL4F8r79cTXwUrYs52ol0Vs9Kg1hMlcTW6E?width=260&height=415&cropmode=none",
-    "eon": "https://bn1301files.storage.live.com/y4m5SFBxWeQkkpMu7mQBNfW28U-VuIcAi-W4-lOwgdWWplFeHuBwqbu7cfot16B2Gs-FpNmBiMD73PIOKoZzrTC-pYioluJna2YeIlH2zdhhnvLSBMYNauWGVhV_l4ummcO9yUK7Om45ig5OIuGz9ENVpjQ2HAWLZvdhQjruWenlZwMtDhyUVsK0PXnRub64oF_?width=260&height=415&cropmode=none",
-    "goblet": "https://bn1301files.storage.live.com/y4mYH7GdKTzu8pVOJc_eNjp5MgmX5Wzo2rJ4LmKptX7_6fy9YP004yZtfhWC4Fnu3MU2pH2iNTI-hwwhttNRrMwUUeWK81p9IqcbEK5EZ-0tTTjtuy5cgWHzCfdTqGlWlGLLK4UQDxBmzz9xOQdDSFrjF7eqBJPbDVEV0ONo6TGhpXVT4Lo7D3nIeBxPZ-UWlCB?width=260&height=415&cropmode=none",
-    "circlet": "https://bn1301files.storage.live.com/y4mTu4lO_zBLQnjWoA_1XzMRGlfPh2XfmAbkFoZrCN0kmlMYQFRQaIj-OfpuOTHHbfS4E3qguWzVoPPGy8tIS80dJ7VCpzX8ig9uHvFTjK2jBAvx_fb2T-K5oSKj24xNdmiKZ4ESRfHBaT1rbzYd18xeh9-KF-vpEKxrRO0Kl6VdQ4W5YBop0StXDQjmJVWQ2sM?width=260&height=415&cropmode=none"
-  },
-  "talents": "10/10/10",
-  "changeLog": []
+    "artifacts": {
+        "flower": "https://bn1301files.storage.live.com/y4mJ68hXyw8-eXDxtNVMZ9tCIMosc-6Dax4XNY6e0d1GQv_xKqa1eKr9BhCG6WqycTFw1XqXjmN5acduFJJwevvYRRiU2Q-1XAzyY98sEOtNXjR9NyY291K9gttdb2Eu_WhPfuXHJKb_tcqRshUya4fT0QDkcXw7ejr8efCMaRxGhuvjRrTWju__lLXDHWgoAWX?width=260&height=415&cropmode=none",
+        "plume": "https://bn1301files.storage.live.com/y4mTJreZ8ooHJ3Lhx-LLJheHuPtqwPbFngOcjVlbL_0NkyZwkD0axSIsoUVzQ6UjSVT9I7NT0LPC2LQZLf-0rNw0Vm44SPI6fXJKTEBF2-yFD-zwZUPEuFbpI1hdGP8wKcn4vhLlw0_BbixALHz-3F2dMopLZRn9sL4F8r79cTXwUrYs52ol0Vs9Kg1hMlcTW6E?width=260&height=415&cropmode=none",
+        "eon": "https://bn1301files.storage.live.com/y4m5SFBxWeQkkpMu7mQBNfW28U-VuIcAi-W4-lOwgdWWplFeHuBwqbu7cfot16B2Gs-FpNmBiMD73PIOKoZzrTC-pYioluJna2YeIlH2zdhhnvLSBMYNauWGVhV_l4ummcO9yUK7Om45ig5OIuGz9ENVpjQ2HAWLZvdhQjruWenlZwMtDhyUVsK0PXnRub64oF_?width=260&height=415&cropmode=none",
+        "goblet": "https://bn1301files.storage.live.com/y4mYH7GdKTzu8pVOJc_eNjp5MgmX5Wzo2rJ4LmKptX7_6fy9YP004yZtfhWC4Fnu3MU2pH2iNTI-hwwhttNRrMwUUeWK81p9IqcbEK5EZ-0tTTjtuy5cgWHzCfdTqGlWlGLLK4UQDxBmzz9xOQdDSFrjF7eqBJPbDVEV0ONo6TGhpXVT4Lo7D3nIeBxPZ-UWlCB?width=260&height=415&cropmode=none",
+        "circlet": "https://bn1301files.storage.live.com/y4mTu4lO_zBLQnjWoA_1XzMRGlfPh2XfmAbkFoZrCN0kmlMYQFRQaIj-OfpuOTHHbfS4E3qguWzVoPPGy8tIS80dJ7VCpzX8ig9uHvFTjK2jBAvx_fb2T-K5oSKj24xNdmiKZ4ESRfHBaT1rbzYd18xeh9-KF-vpEKxrRO0Kl6VdQ4W5YBop0StXDQjmJVWQ2sM?width=260&height=415&cropmode=none"
+    },
+    "talents": "10/10/10",
+    "changeLog": []
 }

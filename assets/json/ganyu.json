@@ -1,26 +1,26 @@
 {
-  "name": "Ganyu",
-  "iconName": "Ganyu.png",
-  "region": "Liyue",
-  "level": "90/90",
-  "cons": "2",
-  "stat": {
-    "HP": "16196",
-    "ATK": "2539",
-    "DEF": "670",
-    "EM": "124",
-    "ER": "105.8",
-    "CR": "49.7",
-    "CDM": "222.1"
-  },
-  "enquipment": {
+    "name": "Ganyu",
+    "iconName": "Ganyu.png",
+    "region": "Liyue",
+    "level": "90/90",
+    "cons": "2",
+    "stat": {
+        "HP": "16196",
+        "ATK": "2539",
+        "DEF": "670",
+        "EM": "124",
+        "ER": "105.8",
+        "CR": "49.7",
+        "CDM": "222.1"
+    },
     "weapon": "https://bn1301files.storage.live.com/y4mAJlxLWSvcK73_-uMd1_0MUXOOWMKKMTVEIugJ75j0J5K51gJsUAe4cw-kmDc00nUMmmJJ3Hd47baCg4klm_KvDaq848pR18euYsOSfixXKaopIvCUeuUQyneP19V8IjewcMMFXvrgq0fIM5HKNAF7ZmHwq1gVHrMRTp7Otcx07LgCCnmTLDcz09RNHKVn50S?width=260&height=415&cropmode=none",
-    "flower": "https://bn1301files.storage.live.com/y4mS5sma08gqryYBrSEfwbrhVj_3gqHveFv2d8XSRI_HPRE2G0uVQ6t1Gf8zox1Sf-aumlK6KiCi0mtKT_RlUZkjNsg-f-Yi1Pd8o3_1uXXYbO9zP1rprccNudoMow6_8W18ixeZirSJ2st8EyACWCJgR-C0wIJ69ZtEpFw_rgWX-ACamRwu1ZdwpcGREzoUOD1?width=260&height=415&cropmode=none",
-    "plume": "https://bn1301files.storage.live.com/y4mzI1II-_xHkPzZzQRQEO53hDIh6CjFg9YR_KHsBr9M1QJuKUlShY1j0WSv5VW7wk1VmPmGKMfREe2sz_l4LaT-XIKwhoQiWLGFJ3qU4HISBoUbsDegKHiJbI6LwH2ObQP0FYLqL5H36JKuahNJ0vC9MFLJwCK5BCc_j_-Fmoz5u8m0C4DUSLUzVbouXADM0Wc?width=260&height=415&cropmode=none",
-    "eon": "https://bn1301files.storage.live.com/y4mMjLnKs2c70Ho8VuabYuZFPLluAzhdlldc0TGkaQ1nnrS5X6d0z21NnFbnEiTXH72oPygupnb4txjJZbKVA4dDt40AZVzmgtDSwbBVcj0OfvyDidAH3AaD_-3fnUgoOxBQeC2nRXXao2MN5GYguJjmvYNNiMHvvwocrfSAr6XdF5yepRB0qrtQ-8P5p__X25G?width=260&height=415&cropmode=none",
-    "goblet": "https://bn1301files.storage.live.com/y4mexJX6YL42-ROADeXN8J6PlxgDUMR5PB9LD2tmx_eVKsKmLfpQsSWGYtV8whSVI8uLZ6PgCKmpP45HrNqJUqB2jGWqU1M83Q_prFUbU6tWhFVWysVGzgDrjCpoASvTCQXG_WdDGba3vVlm6M6HM6To-3SEFMKRQW7OvZVoK_z3U7dLLWQYLj7dPDq69VsQA5E?width=260&height=415&cropmode=none",
-    "circlet": "https://bn1301files.storage.live.com/y4mKpHbabczJg_B4ukAdiohUWNrihkIUlzUKIkl_E6J0KnOrfxaAQ61ochuxoO1IWp8PqW6Pn1zvpnsoNJxpSAU3xK4SkooMXF1I3Y9dRVrkxhynAJDGRTYbg5fthgpStkUg6kiTpbAZZRpJbeXV63Pm02TQkAQEV3adwacEhYF8mHjYlYVpLLco2t8dplL5tk-?width=260&height=415&cropmode=none"
-  },
-  "talents": "10/10/10",
-  "changeLog": []
+    "artifacts": {
+        "flower": "https://bn1301files.storage.live.com/y4mS5sma08gqryYBrSEfwbrhVj_3gqHveFv2d8XSRI_HPRE2G0uVQ6t1Gf8zox1Sf-aumlK6KiCi0mtKT_RlUZkjNsg-f-Yi1Pd8o3_1uXXYbO9zP1rprccNudoMow6_8W18ixeZirSJ2st8EyACWCJgR-C0wIJ69ZtEpFw_rgWX-ACamRwu1ZdwpcGREzoUOD1?width=260&height=415&cropmode=none",
+        "plume": "https://bn1301files.storage.live.com/y4mzI1II-_xHkPzZzQRQEO53hDIh6CjFg9YR_KHsBr9M1QJuKUlShY1j0WSv5VW7wk1VmPmGKMfREe2sz_l4LaT-XIKwhoQiWLGFJ3qU4HISBoUbsDegKHiJbI6LwH2ObQP0FYLqL5H36JKuahNJ0vC9MFLJwCK5BCc_j_-Fmoz5u8m0C4DUSLUzVbouXADM0Wc?width=260&height=415&cropmode=none",
+        "eon": "https://bn1301files.storage.live.com/y4mMjLnKs2c70Ho8VuabYuZFPLluAzhdlldc0TGkaQ1nnrS5X6d0z21NnFbnEiTXH72oPygupnb4txjJZbKVA4dDt40AZVzmgtDSwbBVcj0OfvyDidAH3AaD_-3fnUgoOxBQeC2nRXXao2MN5GYguJjmvYNNiMHvvwocrfSAr6XdF5yepRB0qrtQ-8P5p__X25G?width=260&height=415&cropmode=none",
+        "goblet": "https://bn1301files.storage.live.com/y4mexJX6YL42-ROADeXN8J6PlxgDUMR5PB9LD2tmx_eVKsKmLfpQsSWGYtV8whSVI8uLZ6PgCKmpP45HrNqJUqB2jGWqU1M83Q_prFUbU6tWhFVWysVGzgDrjCpoASvTCQXG_WdDGba3vVlm6M6HM6To-3SEFMKRQW7OvZVoK_z3U7dLLWQYLj7dPDq69VsQA5E?width=260&height=415&cropmode=none",
+        "circlet": "https://bn1301files.storage.live.com/y4mKpHbabczJg_B4ukAdiohUWNrihkIUlzUKIkl_E6J0KnOrfxaAQ61ochuxoO1IWp8PqW6Pn1zvpnsoNJxpSAU3xK4SkooMXF1I3Y9dRVrkxhynAJDGRTYbg5fthgpStkUg6kiTpbAZZRpJbeXV63Pm02TQkAQEV3adwacEhYF8mHjYlYVpLLco2t8dplL5tk-?width=260&height=415&cropmode=none"
+    },
+    "talents": "10/10/10",
+    "changeLog": []
 }
