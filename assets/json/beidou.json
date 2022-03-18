@@ -1,0 +1,26 @@
+{
+  "name": "Beidou",
+  "iconName": "Beidou.png",
+  "region": "Liyue",
+  "level": "80/80",
+  "cons": "6",
+  "stat": {
+    "HP": "18194",
+    "ATK": "2231",
+    "DEF": "651",
+    "EM": "140",
+    "ER": "153.7",
+    "CR": "61.4",
+    "CDM": "116.8"
+  },
+  "enquipment": {
+    "weapon": "https://bn1301files.storage.live.com/y4mnvEBN2xnM0a_N6fwX26H6hHcBcQo5-HqBy-W_veLQQLl-B229B7Dv5xOgjxGcdYMyQRpSoglxuILAXG_8jsFj-XhlkIYlrsgi4-9GtXRFbggqTTVIUY1bM7zgnXG4yLSV1OlQVsU6NGEh6RzzXTJzzKPu58MtHZl2ednXTrTSuE3IbxueGhG9IdqWtUVLoHF?width=260&height=415&cropmode=none",
+    "flower": "https://bn1301files.storage.live.com/y4miRBfQfrD-Sd4402EtT-_G1QS9Rtt0euubW9JZAd2KT7QEByTOekcN1TFrDHX6DbAyqREihfk4V662diyEyTTtU8eSVTJ3KZsUs-XtHd0Bxr88MsmC2HuoM8z_Xt7hohhEg7TKK3esu8vQvDCGU6OGiCGc-3ZhjtzkD7nJUSSLZrrO7_P4w62JupNO5F2zD99?width=260&height=415&cropmode=none",
+    "plume": "https://bn1301files.storage.live.com/y4mAlP0WUOv9GifAe3N8iyMUTcIkEol2NeVmG6tbUdQbNvXmsC32f_BY4EREC77_6mUO0BSdIJ9vHJ0S55nLqWsPCp0nHVcOwnV3ErReOSDWt21Wh-kJmXLlGYGEacT3OlUlNBibHkZO05dOKRp1UqdpoXyg8aMtsyueyix3t83O7-AWKfYQS4in9LfaOn-8Z8H?width=260&height=415&cropmode=none",
+    "eon": "https://bn1301files.storage.live.com/y4mR5ymfNFuW5WJoP_2DgGFlZtpLgBEq1Ikp0fe25PtsPQ4s5TnD30p8JtYOoYmphlqgFUmkh6Jqbb5aQyOGw-wzVwclucriEeS_32d6AyFh5LoOjl0VQi4Mqa9ZYh8ow113wprv6r4CLg3NVQPaNL3E4bvnx9u9ppZzK8H9Trb37lYK4Pa_y1TBOdnLGJs77d6?width=260&height=415&cropmode=none",
+    "goblet": "https://bn1301files.storage.live.com/y4m2s0PaFGnVqit9dcYzzNSIeyvuUWVhZi10LyOb48rjIXSMxznjXEX77wb5Bc5Xk0-8ZyY-ZPwGyf98mRgP-zXVOnHQZIOdcLDqky_VUaT8kJgK9r8OFUI2f0TEfWuCxYvu6WcYv4Y_JD4vrmlnjwcjcTYlnwBRWxKGrUn-R_Z9F52fANvLowiC7GqARblebG-?width=260&height=415&cropmode=none",
+    "circlet": "https://bn1301files.storage.live.com/y4mKKMfAjex8qoehJIh1JtOKSpLEMvlW3SYDQMiw5ukEfm1d9alddSbfhEhMrMxqtjBTQuP_hz6WVptS33BzvrYjsco-vJRRksWbQ3dsC-xQPxjWtq750_eMICpDve7d7_KoEQT31Pm1n8PToUvZVQtftrOhYwdD2gZiCsyD76NsLnFIAJGiuS7OR5QqWv-Fn7a?width=260&height=415&cropmode=none"
+  },
+  "talents": "2/6/6",
+  "changeLog": []
+}
