@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/GenshinBuild/static/css/main.40337136.css",
-    "main.js": "/GenshinBuild/static/js/main.cd136c57.js",
+    "main.css": "/GenshinBuild/static/css/main.b183211f.css",
+    "main.js": "/GenshinBuild/static/js/main.216693b7.js",
     "static/media/HYWenHei-85W.woff2": "/GenshinBuild/static/media/HYWenHei-85W.abce07b70006eb504a18.woff2",
     "static/media/keqing.png": "/GenshinBuild/static/media/keqing.f02257d63ab2161a83b8.png",
-    "static/media/inazuma.jpg": "/GenshinBuild/static/media/inazuma.307cce08b48d2e38aed4.jpg",
-    "static/media/liyue.jpg": "/GenshinBuild/static/media/liyue.2ea3b4e8f31655c4fbe5.jpg",
+    "static/media/bg_teyvat_03_Inazuma.webp": "/GenshinBuild/static/media/bg_teyvat_03_Inazuma.6d7fffdd767654397124.webp",
+    "static/media/bg_teyvat_01_Mondstadt.webp": "/GenshinBuild/static/media/bg_teyvat_01_Mondstadt.6d0881c592f92b856aec.webp",
+    "static/media/bg_teyvat_02_Liyue.webp": "/GenshinBuild/static/media/bg_teyvat_02_Liyue.305d2132314c2e4409f5.webp",
     "static/media/noise.png": "/GenshinBuild/static/media/noise.72188e5476b2736044e2.png",
-    "static/media/mondstadt.jpg": "/GenshinBuild/static/media/mondstadt.32de41a9cff7c634b123.jpg",
     "static/media/Kamisato_Ayaka_Folding_Fan.webp": "/GenshinBuild/static/media/Kamisato_Ayaka_Folding_Fan.cead7dc876d0ae9351d2.webp",
     "static/media/Jean_The_Winds_Course.webp": "/GenshinBuild/static/media/Jean_The_Winds_Course.58495c3dc3cb362aee6a.webp",
     "static/media/Xiangling_Fresh_from_the_Pan.webp": "/GenshinBuild/static/media/Xiangling_Fresh_from_the_Pan.943f91c334605b7f2471.webp",
@@ -25,11 +25,11 @@
     "static/media/Bennett_Recognition.webp": "/GenshinBuild/static/media/Bennett_Recognition.ebfbdb1ffb1af5124671.webp",
     "static/media/Fischl_Night_Raven.webp": "/GenshinBuild/static/media/Fischl_Night_Raven.1d26668f97cd28868daa.webp",
     "index.html": "/GenshinBuild/index.html",
-    "main.40337136.css.map": "/GenshinBuild/static/css/main.40337136.css.map",
-    "main.cd136c57.js.map": "/GenshinBuild/static/js/main.cd136c57.js.map"
+    "main.b183211f.css.map": "/GenshinBuild/static/css/main.b183211f.css.map",
+    "main.216693b7.js.map": "/GenshinBuild/static/js/main.216693b7.js.map"
   },
   "entrypoints": [
-    "static/css/main.40337136.css",
-    "static/js/main.cd136c57.js"
+    "static/css/main.b183211f.css",
+    "static/js/main.216693b7.js"
   ]
 }
