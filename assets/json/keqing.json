@@ -6,12 +6,12 @@
   "cons": "1",
   "stat": {
     "HP": "19400",
-    "ATK": "2280",
+    "ATK": "2178",
     "DEF": "917",
     "EM": "0",
     "ER": "111.0",
     "CR": "53.6",
-    "CDM": "211.2"
+    "CDM": "255.3"
   },
   "enquipment": {
     "weapon": "https://bn1301files.storage.live.com/y4mqX2p292aLBdaIX2mEOiN_ICYFYuVHwj6N-9qd8XkkeKwMt5Z0PyK6O_1gIt04VTiodvpt8ump3U3-1zgLPtiBvoHKM11n3yIbu0paQPOf_CuX52qLk9lWnDJQi3IbHqS4-ObPFPg5b0YbiOmXuJQGbkTwWoJNPTbkBrMZaar_RSpWYwQKZF698F7ejGpKK4K?width=260&height=415&cropmode=none",
@@ -22,5 +22,10 @@
     "circlet": "https://bn1301files.storage.live.com/y4m-JijUIgqrkG19fvbQ3iGpT8MetY5r6gaGth18U5KwNxois32QEIjIcem78M_Ad-JpDSadqiOGN8SK_LUedp47bgwG1yYlSUtitoGkuwAeVf1AmnNesGVpz433GOk__0JPbDQJicNb_E-aIMX3r-woQHmqVG5Lkos_HaYF_-6xqxmoEwJb82bP_7HXSxXtjTR?width=260&height=415&cropmode=none"
   },
   "talents": "10/10/10",
-  "changeLog": []
+  "changeLog": [
+    {
+      "date" : "2022-04-19",
+      "desc" : "Change Weapon to Mistsplitter Reforged."
+    }
+  ]
 }

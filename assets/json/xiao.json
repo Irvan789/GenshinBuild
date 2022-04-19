@@ -6,12 +6,12 @@
   "cons": "1",
   "stat": {
     "HP": "19654",
-    "ATK": "2308",
+    "ATK": "2429",
     "DEF": "1115",
     "EM": "0",
     "ER": "117.5",
-    "CR": "69.6",
-    "CDM": "210.1"
+    "CR": "72.3",
+    "CDM": "203.9"
   },
   "enquipment": {
     "weapon": "https://bn1301files.storage.live.com/y4mOM059g-r5LqWaXfKAh6sAy7AC4LFI8tXLINyi9_7Z8Mma4fEPM7Lxq_RxflNb3DG-iuc4ylqWI7j-YqRmMhctFbXruU09UodT_Drejfuc29ZsKGXyjnGSDrLKU0-zo-y4GrKvHx6XY2_EJVWMPsx-sg8gORYpI1sJTLBQuBsQA0ZCznTrPePoQMl8Y-qohqR?width=260&height=415&cropmode=none",
@@ -22,5 +22,10 @@
     "circlet": "https://bn1301files.storage.live.com/y4mbwlMykUiAo0jApzTiwKZeRQjkuvPl1QLfBG3SNaeuHe-dyYs42r4d8aXK0nDYEPe5n4z8JUXfx4cz__uB97e30DhDfIpKOLqzi6K9xDRqCJcQQhOMGV-CDGayuhL3F7QKIEJyy0pitUvWMFVAADYstXjFv3UgfD2UBxtdyUSdthuGyOWa8cB3Bz3QXPgLt8Y?width=260&height=415&cropmode=none"
   },
   "talents": "10/8/8",
-  "changeLog": []
+  "changeLog": [
+    {
+      "date" : "2022-04-22",
+      "decs" : "Change Goblet of Eonothem."
+    }
+  ]
 }

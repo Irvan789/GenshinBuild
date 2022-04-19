@@ -5,13 +5,13 @@
   "level": "80/80",
   "cons": "6",
   "stat": {
-    "HP": "18194",
-    "ATK": "2231",
+    "HP": "19407",
+    "ATK": "2249",
     "DEF": "651",
-    "EM": "140",
-    "ER": "153.7",
-    "CR": "61.4",
-    "CDM": "116.8"
+    "EM": "61",
+    "ER": "139.4",
+    "CR": "61.8",
+    "CDM": "118.4"
   },
   "enquipment": {
     "weapon": "https://bn1301files.storage.live.com/y4mnvEBN2xnM0a_N6fwX26H6hHcBcQo5-HqBy-W_veLQQLl-B229B7Dv5xOgjxGcdYMyQRpSoglxuILAXG_8jsFj-XhlkIYlrsgi4-9GtXRFbggqTTVIUY1bM7zgnXG4yLSV1OlQVsU6NGEh6RzzXTJzzKPu58MtHZl2ednXTrTSuE3IbxueGhG9IdqWtUVLoHF?width=260&height=415&cropmode=none",
@@ -21,6 +21,11 @@
     "goblet": "https://bn1301files.storage.live.com/y4m2s0PaFGnVqit9dcYzzNSIeyvuUWVhZi10LyOb48rjIXSMxznjXEX77wb5Bc5Xk0-8ZyY-ZPwGyf98mRgP-zXVOnHQZIOdcLDqky_VUaT8kJgK9r8OFUI2f0TEfWuCxYvu6WcYv4Y_JD4vrmlnjwcjcTYlnwBRWxKGrUn-R_Z9F52fANvLowiC7GqARblebG-?width=260&height=415&cropmode=none",
     "circlet": "https://bn1301files.storage.live.com/y4mKKMfAjex8qoehJIh1JtOKSpLEMvlW3SYDQMiw5ukEfm1d9alddSbfhEhMrMxqtjBTQuP_hz6WVptS33BzvrYjsco-vJRRksWbQ3dsC-xQPxjWtq750_eMICpDve7d7_KoEQT31Pm1n8PToUvZVQtftrOhYwdD2gZiCsyD76NsLnFIAJGiuS7OR5QqWv-Fn7a?width=260&height=415&cropmode=none"
   },
-  "talents": "2/6/6",
-  "changeLog": []
+  "talents": "2/8/8",
+  "changeLog": [
+    {
+      "date" : "2022-04-19",
+      "desc" : "Change Flower of Life and Plume of Death."
+    }
+  ]
 }
