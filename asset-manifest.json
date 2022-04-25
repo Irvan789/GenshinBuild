@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GenshinBuild/static/css/main.b183211f.css",
-    "main.js": "/GenshinBuild/static/js/main.216693b7.js",
+    "main.css": "/GenshinBuild/static/css/main.10298f39.css",
+    "main.js": "/GenshinBuild/static/js/main.cd9b6128.js",
     "static/media/HYWenHei-85W.woff2": "/GenshinBuild/static/media/HYWenHei-85W.abce07b70006eb504a18.woff2",
     "static/media/keqing.png": "/GenshinBuild/static/media/keqing.f02257d63ab2161a83b8.png",
     "static/media/bg_teyvat_03_Inazuma.webp": "/GenshinBuild/static/media/bg_teyvat_03_Inazuma.6d7fffdd767654397124.webp",
@@ -25,11 +25,11 @@
     "static/media/Bennett_Recognition.webp": "/GenshinBuild/static/media/Bennett_Recognition.ebfbdb1ffb1af5124671.webp",
     "static/media/Fischl_Night_Raven.webp": "/GenshinBuild/static/media/Fischl_Night_Raven.1d26668f97cd28868daa.webp",
     "index.html": "/GenshinBuild/index.html",
-    "main.b183211f.css.map": "/GenshinBuild/static/css/main.b183211f.css.map",
-    "main.216693b7.js.map": "/GenshinBuild/static/js/main.216693b7.js.map"
+    "main.10298f39.css.map": "/GenshinBuild/static/css/main.10298f39.css.map",
+    "main.cd9b6128.js.map": "/GenshinBuild/static/js/main.cd9b6128.js.map"
   },
   "entrypoints": [
-    "static/css/main.b183211f.css",
-    "static/js/main.216693b7.js"
+    "static/css/main.10298f39.css",
+    "static/js/main.cd9b6128.js"
   ]
 }
