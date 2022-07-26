@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/GenshinBuild/static/css/main.cd815274.css",
-    "main.js": "/GenshinBuild/static/js/main.c590c60b.js",
+    "main.js": "/GenshinBuild/static/js/main.a2700cdb.js",
     "index.html": "/GenshinBuild/index.html",
     "main.cd815274.css.map": "/GenshinBuild/static/css/main.cd815274.css.map",
-    "main.c590c60b.js.map": "/GenshinBuild/static/js/main.c590c60b.js.map"
+    "main.a2700cdb.js.map": "/GenshinBuild/static/js/main.a2700cdb.js.map"
   },
   "entrypoints": [
     "static/css/main.cd815274.css",
-    "static/js/main.c590c60b.js"
+    "static/js/main.a2700cdb.js"
   ]
 }
