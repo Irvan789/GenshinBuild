@@ -1,35 +1,13 @@
 {
   "files": {
-    "main.css": "/GenshinBuild/static/css/main.10298f39.css",
-    "main.js": "/GenshinBuild/static/js/main.cd9b6128.js",
-    "static/media/HYWenHei-85W.woff2": "/GenshinBuild/static/media/HYWenHei-85W.abce07b70006eb504a18.woff2",
-    "static/media/keqing.png": "/GenshinBuild/static/media/keqing.f02257d63ab2161a83b8.png",
-    "static/media/bg_teyvat_03_Inazuma.webp": "/GenshinBuild/static/media/bg_teyvat_03_Inazuma.6d7fffdd767654397124.webp",
-    "static/media/bg_teyvat_01_Mondstadt.webp": "/GenshinBuild/static/media/bg_teyvat_01_Mondstadt.6d0881c592f92b856aec.webp",
-    "static/media/bg_teyvat_02_Liyue.webp": "/GenshinBuild/static/media/bg_teyvat_02_Liyue.305d2132314c2e4409f5.webp",
-    "static/media/noise.png": "/GenshinBuild/static/media/noise.72188e5476b2736044e2.png",
-    "static/media/Kamisato_Ayaka_Folding_Fan.webp": "/GenshinBuild/static/media/Kamisato_Ayaka_Folding_Fan.cead7dc876d0ae9351d2.webp",
-    "static/media/Jean_The_Winds_Course.webp": "/GenshinBuild/static/media/Jean_The_Winds_Course.58495c3dc3cb362aee6a.webp",
-    "static/media/Xiangling_Fresh_from_the_Pan.webp": "/GenshinBuild/static/media/Xiangling_Fresh_from_the_Pan.943f91c334605b7f2471.webp",
-    "static/media/Xiao_Mask.webp": "/GenshinBuild/static/media/Xiao_Mask.80f003921a1dd16ae640.webp",
-    "static/media/Keqing_Lightning_Stiletto.webp": "/GenshinBuild/static/media/Keqing_Lightning_Stiletto.3b4a65a0f61b4ea1eda5.webp",
-    "static/media/Shenhe_Comb.webp": "/GenshinBuild/static/media/Shenhe_Comb.6e3a7c4f9eb6d802eb84.webp",
-    "static/media/Zhongli_Planet_Befall.webp": "/GenshinBuild/static/media/Zhongli_Planet_Befall.6f826eef35e644319825.webp",
-    "static/media/Xingqiu_Rainbow.webp": "/GenshinBuild/static/media/Xingqiu_Rainbow.d522c68f99793b0b6009.webp",
-    "static/media/Noelle_Protector.webp": "/GenshinBuild/static/media/Noelle_Protector.537d4a0e8a66645936e1.webp",
-    "static/media/Ganyu_Qilin.webp": "/GenshinBuild/static/media/Ganyu_Qilin.945613a719986ff75b6f.webp",
-    "static/media/Venti_Azure_Sky.webp": "/GenshinBuild/static/media/Venti_Azure_Sky.1f3a4fb238cb4bdabd90.webp",
-    "static/media/Mona_Starry_Sky.webp": "/GenshinBuild/static/media/Mona_Starry_Sky.d8346acd57d46f54f645.webp",
-    "static/media/Beidou_Weighing_Anchor.webp": "/GenshinBuild/static/media/Beidou_Weighing_Anchor.496ec07590523ef96699.webp",
-    "static/media/Diona_Meow.webp": "/GenshinBuild/static/media/Diona_Meow.9ee19d5a118bacc1c630.webp",
-    "static/media/Bennett_Recognition.webp": "/GenshinBuild/static/media/Bennett_Recognition.ebfbdb1ffb1af5124671.webp",
-    "static/media/Fischl_Night_Raven.webp": "/GenshinBuild/static/media/Fischl_Night_Raven.1d26668f97cd28868daa.webp",
-    "index.html": "/GenshinBuild/index.html",
-    "main.10298f39.css.map": "/GenshinBuild/static/css/main.10298f39.css.map",
-    "main.cd9b6128.js.map": "/GenshinBuild/static/js/main.cd9b6128.js.map"
+    "main.css": "/static/css/main.cd815274.css",
+    "main.js": "/static/js/main.c590c60b.js",
+    "index.html": "/index.html",
+    "main.cd815274.css.map": "/static/css/main.cd815274.css.map",
+    "main.c590c60b.js.map": "/static/js/main.c590c60b.js.map"
   },
   "entrypoints": [
-    "static/css/main.10298f39.css",
-    "static/js/main.cd9b6128.js"
+    "static/css/main.cd815274.css",
+    "static/js/main.c590c60b.js"
   ]
 }

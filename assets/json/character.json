@@ -1,0 +1,93 @@
+[
+  {
+    "region": "Mondstadt",
+    "data": [
+      {
+        "name": "Jean",
+        "isOutfits": false
+      },
+      {
+        "name": "Venti",
+        "isOutfits": false
+      },
+      {
+        "name": "Bennett",
+        "isOutfits": false
+      },
+      {
+        "name": "Noelle",
+        "isOutfits": false
+      },
+      {
+        "name": "Fischl",
+        "isOutfits": false
+      },
+      {
+        "name": "Mona",
+        "isOutfits": false
+      },
+      {
+        "name": "Diona",
+        "isOutfits": false
+      }
+    ]
+  },
+  {
+    "region": "Liyue",
+    "data": [
+      {
+        "name": "Xiao",
+        "isOutfits": false
+      },
+      {
+        "name": "Beidou",
+        "isOutfits": false
+      },
+      {
+        "name": "Xiangling",
+        "isOutfits": false
+      },
+      {
+        "name": "Xingqiu",
+        "isOutfits": false
+      },
+      {
+        "name": "Keqing",
+        "isOutfits": true
+      },
+      {
+        "name": "Zhongli",
+        "isOutfits": false
+      },
+      {
+        "name": "Ganyu",
+        "isOutfits": false
+      },
+      {
+        "name": "Shenhe",
+        "isOutfits": false
+      },
+      {
+        "name": "Yelan",
+        "isOutfits": false
+      }
+    ]
+  },
+  {
+    "region": "Inazuma",
+    "data": [
+      {
+        "name": "Kamisato Ayaka",
+        "isOutfits": false
+      },
+      {
+        "name": "Kaedehara Kazuha",
+        "isOutfits": false
+      },
+      {
+        "name": "Shikanoin Heizou",
+        "isOutfits": false
+      }
+    ]
+  }
+]
